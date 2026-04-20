@@ -1,0 +1,1321 @@
+<!DOCTYPE html><html><head>
+      <title>LED-C1.1-Penetapan-Budaya-Mutu-REVISI-2</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\ARIZAL\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.22\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      <div>
+<h1 id="laporan-evaluasi-diri--revisi-2">LAPORAN EVALUASI DIRI — REVISI 2 </h1>
+<h2 id="program-studi-rekayasa-keamanan-siber-d4--sarjana-terapan">PROGRAM STUDI REKAYASA KEAMANAN SIBER (D4 / Sarjana Terapan) </h2>
+<h3 id="politeknik-siber-dan-sandi-negara">POLITEKNIK SIBER DAN SANDI NEGARA </h3>
+<h4 id="lam-infokom-instrumen-21--2025">LAM Infokom Instrumen 2.1 — 2025 </h4>
+<hr>
+<blockquote>
+<p><strong>STATUS FILE:</strong> Revisi 2 — Draf siap isi data &amp; link bukti, berdasarkan checklist REVISI dan benchmark LED Unggul<br>
+<strong>Target skor C.1.1:</strong> ≥ 3,00 (Baik → Unggul)<br>
+<strong>Tanggal revisi:</strong> 19 April 2026<br>
+<strong>Perubahan utama dari Revisi 1:</strong> Narasi deskriptif ditambahkan per aspek; regulasi diperbarui ke Permendiktisaintek No. 39/2025; EWMP diklarifikasi; struktur bukti diperkuat</p>
+</blockquote>
+<hr>
+<h2 id="c-kriteria">C. KRITERIA </h2>
+<h3 id="c1-budaya-mutu">C.1. BUDAYA MUTU </h3>
+<hr>
+<h3 id="c11-penetapan-kebijakan-standar-dan-indikator-terkait-budaya-mutu">C.1.1. [PENETAPAN] Kebijakan, Standar, dan Indikator Terkait Budaya Mutu </h3>
+<p>Program Studi Rekayasa Keamanan Siber (PS-RKS) Politeknik Siber dan Sandi Negara (Poltek SSN) telah menetapkan kebijakan, standar mutu, indikator kinerja, dan Standar Operasional Prosedur (SOP) yang mengatur seluruh aspek tata kelola internal dan Sistem Penjaminan Mutu Internal (SPMI) dalam siklus <strong>PPEPP</strong> (Penetapan, Pelaksanaan, Evaluasi, Pengendalian, Peningkatan). Penetapan ini berlandaskan pada regulasi nasional dan kebijakan internal institusi, terutama:</p>
+<ol>
+<li><strong>Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 39 Tahun 2025</strong> tentang Standar Nasional Pendidikan Tinggi — sebagai acuan standar mutu dan penyelenggaraan tridharma.</li>
+<li><strong>Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 53 Tahun 2023</strong> tentang Penjaminan Mutu Pendidikan Tinggi — mewajibkan penerapan SPMI berbasis siklus PPEPP.</li>
+<li><strong>Peraturan Badan Siber dan Sandi Negara Nomor 12 Tahun 2019</strong> tentang Organisasi dan Tata Kerja Politeknik Siber dan Sandi Negara.</li>
+<li><strong>Peraturan Badan Siber dan Sandi Negara Nomor 1 Tahun 2023</strong> tentang Statuta Politeknik Siber dan Sandi Negara.</li>
+<li><strong>Keputusan Direktur Poltek SSN Nomor XYZ.1 Tahun 2025</strong> tentang Standar Mutu Internal Politeknik Siber dan Sandi Negara, berlaku sejak 15 Februari 2025.</li>
+<li><strong>Keputusan Direktur Poltek SSN Nomor 18 Tahun 2021</strong> tentang Peta Proses Bisnis Politeknik Siber dan Sandi Negara.</li>
+<li><strong>Keputusan Direktur Poltek SSN Nomor 03 Tahun 2022</strong> tentang Rencana Strategis Poltek SSN Tahun 2021–2024.</li>
+</ol>
+<hr>
+<h3 id="c11a--kebijakan-standar-dan-indikator-tata-kelola-internal-upps-berikut-sop">C.1.1.A — Kebijakan, Standar, dan Indikator Tata Kelola Internal UPPS berikut SOP </h3>
+<p>Tata kelola internal Poltek SSN mencakup empat aspek: (1) administrasi akademik, (2) administrasi keuangan, (3) administrasi SDM, dan (4) aspek lain dalam siklus PPEPP. Keseluruhan aspek ditetapkan melalui dokumen kebijakan, standar mutu, indikator, dan SOP yang dapat diverifikasi asesor.</p>
+<hr>
+<h4 id="aspek-1--administrasi-akademik">Aspek 1 — Administrasi Akademik </h4>
+<p><strong>Kebijakan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Regulasi</th>
+<th>Relevansi</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Keputusan Direktur Poltek SSN Nomor 03 Tahun 2022 tentang Rencana Strategis Poltek SSN 2021–2024</td>
+<td>Arah kebijakan pengembangan akademik institusi</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Keputusan Direktur Poltek SSN Nomor 7.1 Tahun 2021 tentang Pedoman Pengembangan Kurikulum</td>
+<td>Acuan pengembangan dan peninjauan kurikulum berbasis OBE</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Peraturan Badan Siber dan Sandi Negara Nomor 1 Tahun 2023 tentang Statuta Poltek SSN (Bab Pengelolaan Akademik)</td>
+<td>Norma dasar penyelenggaraan akademik dan tanggung jawab unit</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Keputusan Direktur Poltek SSN Nomor 18 Tahun 2021 tentang Peta Proses Bisnis</td>
+<td>Dasar hukum penyusunan SOP akademik</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+Administrasi akademik PS-RKS dikelola secara terpusat melalui Bagian Administrasi Akademik, Kemahasiswaan, dan Kerja Sama (Subbag AAK) Poltek SSN yang terintegrasi dengan sistem informasi akademik (SIAKAD) dan dilaporkan ke PDDikti setiap semester. Proses penerimaan mahasiswa baru, registrasi, perwalian, penjadwalan perkuliahan, hingga yudisium dilaksanakan sesuai kalender akademik yang ditetapkan di awal setiap tahun ajaran. SOP administrasi akademik mencakup [XX] prosedur utama yang telah ditetapkan, diterapkan, dan dimonitor kepatuhannya melalui Audit Mutu Internal (AMI) setiap tahun. Pelaporan data ke PDDikti dilaksanakan tepat waktu setiap semester dengan tingkat kepatuhan [XX]%. Mekanisme pengawasan dan evaluasi akademik dilaksanakan melalui Rapat Tinjauan Manajemen (RTM) yang terdokumentasi secara rutin.</p>
+<p><strong>Standar Mutu &amp; Indikator</strong> <em>(Kepdir No. XYZ.1 Tahun 2025 — Standar Tata Pamong &amp; Proses Pendidikan)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Pernyataan Standar Mutu</th>
+<th>Indikator</th>
+<th>Unit Kerja</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Direktur menetapkan sistem pengelolaan administrasi akademik berdasarkan peraturan yang berlaku</td>
+<td>Persentase realisasi kesesuaian penyelenggaraan pendidikan berdasarkan kalender akademik setiap tahun ajaran</td>
+<td>Subbag AAK</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Direktur memastikan data perkuliahan dilaporkan ke PDDikti secara lengkap dan tepat waktu</td>
+<td>Persentase data perkuliahan dilaporkan ke PDDikti secara lengkap dan tepat waktu pada setiap semester berjalan</td>
+<td>Subbag AAK</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Direktur bertanggung jawab atas tersusunnya SOP administrasi akademik</td>
+<td>Persentase SOP administrasi akademik yang tersusun dan diterapkan</td>
+<td>Subbag AAK</td>
+<td>≥ 70%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Direktur memastikan terciptanya suasana akademik yang kondusif dan beragam</td>
+<td>Jumlah keragaman disiplin ilmu dalam kuliah umum tiap tahun</td>
+<td>Subbag AAK</td>
+<td>≥ 3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SOP Administrasi Akademik yang Telah Ditetapkan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Nomor SOP</th>
+<th>Nama SOP</th>
+<th>Berlaku Sejak</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>SOP-AAK-001</td>
+<td>Penerimaan Mahasiswa Baru</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SOP-AAK-002</td>
+<td>Registrasi dan Heregistrasi Mahasiswa</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SOP-AAK-003</td>
+<td>Pengisian dan Persetujuan KRS</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SOP-AAK-004</td>
+<td>Penyusunan dan Pengesahan Jadwal Perkuliahan</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>SOP-AAK-005</td>
+<td>Monitoring Kehadiran Dosen dan Mahasiswa</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>SOP-AAK-006</td>
+<td>Pelaksanaan Ujian Tengah dan Akhir Semester</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>SOP-AAK-007</td>
+<td>Pengisian Nilai dan Pengumuman Hasil Studi</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>SOP-AAK-008</td>
+<td>Yudisium dan Wisuda</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>SOP-AAK-009</td>
+<td>Pengajuan dan Pelaksanaan Tugas Akhir</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>SOP-AAK-010</td>
+<td>Pelaporan Data PDDikti</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="aspek-2--administrasi-keuangan">Aspek 2 — Administrasi Keuangan </h4>
+<p><strong>Kebijakan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Regulasi</th>
+<th>Relevansi</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Peraturan Badan Siber dan Sandi Negara Nomor 14 Tahun 2019 tentang Pengelolaan Kinerja di BSSN</td>
+<td>Acuan sistem pelaporan dan akuntabilitas anggaran</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Surat Edaran Nomor 16 Tahun 2023 tentang Penyusunan Perencanaan Program dan Anggaran di Lingkungan BSSN</td>
+<td>Mekanisme penganggaran berbasis kinerja</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Keputusan Direktur Poltek SSN Nomor 03 Tahun 2022 tentang Rencana Strategis Poltek SSN 2021–2024</td>
+<td>Acuan alokasi anggaran per program kerja tridharma</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+Pengelolaan keuangan Poltek SSN mengacu pada prinsip tata kelola yang baik (<em>good governance</em>) berbasis akuntabilitas dan transparansi sesuai ketentuan perundang-undangan yang berlaku bagi satuan kerja di bawah BSSN. Perencanaan anggaran disusun setiap tahun dalam dokumen Rencana Kerja dan Anggaran (RKA) yang mencakup seluruh komponen tridharma — pendidikan, penelitian, dan PkM. Realisasi anggaran dimonitor secara berkala oleh Subbag Renkeu dan dilaporkan kepada Direktur melalui laporan kinerja tahunan. Dalam tiga tahun terakhir, total anggaran Poltek SSN berasal dari APBN dan hibah, dengan rata-rata realisasi anggaran [XX]% per tahun. Mekanisme pengendalian keuangan meliputi audit internal dan reviu laporan keuangan yang terdokumentasi. Bukti pengelolaan keuangan tersedia melalui laporan keuangan tahunan yang dapat diakses asesor. [Link Bukti Laporan Keuangan]</p>
+<p><strong>Standar Mutu &amp; Indikator</strong> <em>(Kepdir No. XYZ.1 Tahun 2025 — Standar Pembiayaan Pembelajaran &amp; Tata Pamong)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Pernyataan Standar Mutu</th>
+<th>Indikator</th>
+<th>Unit Kerja</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Direktur menetapkan sistem pengelolaan keuangan berdasarkan prinsip tata kelola yang baik sesuai peraturan perundang-undangan</td>
+<td>Persentase realisasi anggaran tahunan</td>
+<td>Subbag Renkeu</td>
+<td>95%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Direktur memastikan tersedianya anggaran penyelenggaraan pendidikan yang memadai</td>
+<td>Persentase anggaran pendidikan dari total anggaran tridharma</td>
+<td>Subbag Renkeu</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Direktur menetapkan rencana strategis dan rencana operasional dalam jangka waktu tertentu</td>
+<td>Persentase ketercapaian sasaran strategis (IKU) yang ditetapkan pada rencana strategis</td>
+<td>Subbag Renkeu</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Direktur menetapkan laporan kinerja tahunan</td>
+<td>Persentase ketersediaan laporan kinerja unit kerja tiap tahun</td>
+<td>Subbag Renkeu</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SOP Administrasi Keuangan yang Telah Ditetapkan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Nomor SOP</th>
+<th>Nama SOP</th>
+<th>Berlaku Sejak</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>SOP-KEU-001</td>
+<td>Penyusunan Rencana Kerja dan Anggaran (RKA)</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SOP-KEU-002</td>
+<td>Pengajuan dan Pencairan Anggaran</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SOP-KEU-003</td>
+<td>Pertanggungjawaban Keuangan</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SOP-KEU-004</td>
+<td>Monitoring dan Evaluasi Realisasi Anggaran</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>SOP-KEU-005</td>
+<td>Penyusunan Laporan Keuangan Tahunan</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>SOP-KEU-006</td>
+<td>Pengelolaan Hibah dan Dana Penelitian/PkM</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Data Pendanaan UPPS/PS-RKS</strong> <em>(Tabel 1.A.2 dan 1.A.3 LKPS)</em>:</p>
+<p>Sumber Dana (dalam juta rupiah):</p>
+<table>
+<thead>
+<tr>
+<th>Sumber Dana</th>
+<th style="text-align:right">TS-2</th>
+<th style="text-align:right">TS-1</th>
+<th style="text-align:right">TS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>APBN</td>
+<td style="text-align:right">5.251,4</td>
+<td style="text-align:right">5.262,2</td>
+<td style="text-align:right">3.793,2</td>
+</tr>
+<tr>
+<td>Hibah</td>
+<td style="text-align:right">60,0</td>
+<td style="text-align:right">80,0</td>
+<td style="text-align:right">185,0</td>
+</tr>
+<tr>
+<td>Mahasiswa (SPP)</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align:right"><strong>5.311,4</strong></td>
+<td style="text-align:right"><strong>5.342,2</strong></td>
+<td style="text-align:right"><strong>3.978,2</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Penggunaan Dana (dalam juta rupiah):</p>
+<table>
+<thead>
+<tr>
+<th>Pos</th>
+<th style="text-align:right">TS-2</th>
+<th style="text-align:right">TS-1</th>
+<th style="text-align:right">TS</th>
+<th style="text-align:center">% Penelitian (TS)</th>
+<th style="text-align:center">% PkM (TS)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pendidikan</td>
+<td style="text-align:right">4.757,0</td>
+<td style="text-align:right">4.506,0</td>
+<td style="text-align:right">3.397,1</td>
+<td style="text-align:center">—</td>
+<td style="text-align:center">—</td>
+</tr>
+<tr>
+<td>Penelitian</td>
+<td style="text-align:right">248,6</td>
+<td style="text-align:right">204,0</td>
+<td style="text-align:right">152,7</td>
+<td style="text-align:center">3,8%</td>
+<td style="text-align:center">—</td>
+</tr>
+<tr>
+<td>PkM</td>
+<td style="text-align:right">245,7</td>
+<td style="text-align:right">552,2</td>
+<td style="text-align:right">243,4</td>
+<td style="text-align:center">—</td>
+<td style="text-align:center">6,1%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="aspek-3--administrasi-sdm">Aspek 3 — Administrasi SDM </h4>
+<p><strong>Kebijakan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Regulasi</th>
+<th>Relevansi</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Peraturan Menteri PAN-RB Nomor 17 Tahun 2013 tentang Jabatan Fungsional Dosen dan Angka Kreditnya</td>
+<td>Acuan kenaikan jabatan dan angka kredit dosen</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Peraturan Menteri PAN-RB Nomor 7 Tahun 2019 tentang Jabatan Fungsional Pranata Laboratorium Pendidikan</td>
+<td>Acuan pengelolaan karir PLP</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Peraturan Menteri PAN-RB Nomor 32 Tahun 2020 tentang Jabatan Fungsional Pranata Komputer</td>
+<td>Acuan pengelolaan karir Pranata Komputer</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Peraturan Menteri PAN-RB Nomor 55 Tahun 2022 tentang Jabatan Fungsional Pustakawan</td>
+<td>Acuan pengelolaan karir Pustakawan</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Peraturan Badan Siber dan Sandi Negara Nomor 1 Tahun 2023 tentang Statuta Poltek SSN (Bab Pengelolaan SDM)</td>
+<td>Norma dasar rekrutmen, pengembangan, dan pemberhentian SDM</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+Pengelolaan SDM Poltek SSN mencakup dosen dan tenaga kependidikan (tendik) yang dikelola berdasarkan regulasi kepegawaian negeri sipil dan peraturan khusus BSSN. Proses rekrutmen dilaksanakan oleh BSSN dengan mekanisme seleksi terbuka, sedangkan pembinaan kompetensi dilaksanakan melalui program studi lanjut, pelatihan, dan sertifikasi profesi yang dikoordinasikan oleh Subbag OSDM. PS-RKS memiliki 15 DTPR (Dosen Tetap Program Studi) dengan rata-rata beban kerja (EWMP) sebesar 15,45 SKS/semester, memenuhi ketentuan 12–16 SKS per Permendiktisaintek No. 39/2025. Seluruh DTPR memiliki sertifikat pendidik (Serdos) dan [XX]% memiliki sertifikasi kompetensi di bidang keamanan siber dan sandi. Terdapat empat DTPR dengan EWMP di atas 16 SKS pada TS, yaitu Dimas Febriyan Priambodo (20,32 SKS), Jeckson Sidabutar (25,97 SKS), Magfirawaty (21,60 SKS), dan Susila Windarta (22,60 SKS). Kondisi ini disebabkan oleh penugasan khusus pada kegiatan penelitian intensif dan/atau tugas tambahan institusional yang bersifat sementara. Poltek SSN telah mengidentifikasi kondisi ini dan sedang melakukan penyeimbangan beban kerja sebagaimana akan diuraikan pada bagian C.1.3 [Evaluasi]. Pengembangan tendik dilaksanakan melalui diklat teknis, pelatihan kompetensi, dan sertifikasi sesuai jabatan fungsional masing-masing.</p>
+<p><strong>Standar Mutu &amp; Indikator</strong> <em>(Kepdir No. XYZ.1 Tahun 2025 — Standar Dosen dan Tendik)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Pernyataan Standar Mutu</th>
+<th>Indikator</th>
+<th>Unit Kerja</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Direktur menetapkan rasio dosen terhadap mahasiswa sesuai peraturan yang berlaku</td>
+<td>Rasio DTPR terhadap jumlah mahasiswa pada program studi</td>
+<td>Jurusan-Prodi</td>
+<td>1:20</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Direktur memastikan terpenuhinya beban kerja dosen per semester</td>
+<td>Rata-rata beban kerja DTPR tiap semester</td>
+<td>Jurusan-Prodi</td>
+<td>12–16 SKS</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Direktur memastikan kualitas dan kompetensi dosen</td>
+<td>Jumlah DTPR berkualifikasi pendidikan doktor (S3)</td>
+<td>Jurusan-Prodi</td>
+<td>≥ 3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Direktur memastikan kualitas dan kompetensi dosen</td>
+<td>Jumlah DTPR dengan jabatan Lektor Kepala</td>
+<td>Jurusan-Prodi</td>
+<td>≥ 3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Direktur memastikan kualitas dan kompetensi dosen</td>
+<td>Persentase DTPR yang telah tersertifikasi dosen (Serdos)</td>
+<td>Jurusan-Prodi</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Direktur memastikan kualitas dan kompetensi dosen</td>
+<td>Persentase DTPR yang memiliki sertifikat kompetensi/profesional di bidang keamanan siber dan sandi</td>
+<td>Jurusan-Prodi</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Direktur memastikan ketersediaan SDM yang profesional</td>
+<td>Persentase SDM unit kerja yang memiliki sertifikat pelatihan atau sertifikasi relevan</td>
+<td>Subbag OSDM TU</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Direktur bertanggung jawab atas tersusunnya SOP administrasi SDM</td>
+<td>Persentase SOP bidang SDM yang tersusun dan diterapkan dalam siklus PPEPP</td>
+<td>Subbag OSDM TU</td>
+<td>≥ 70%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SOP Administrasi SDM yang Telah Ditetapkan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Nomor SOP</th>
+<th>Nama SOP</th>
+<th>Berlaku Sejak</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>SOP-SDM-001</td>
+<td>Rekrutmen dan Seleksi Dosen/Tendik</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SOP-SDM-002</td>
+<td>Pengangkatan dan Pemberhentian Jabatan Struktural</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SOP-SDM-003</td>
+<td>Penilaian Kinerja Dosen (SKP/P2K)</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SOP-SDM-004</td>
+<td>Pengembangan Kompetensi Dosen (Studi Lanjut, Pelatihan, Sertifikasi)</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>SOP-SDM-005</td>
+<td>Pengusulan Kenaikan Jabatan Fungsional Dosen</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>SOP-SDM-006</td>
+<td>Penugasan Dosen dan Tendik</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>SOP-SDM-007</td>
+<td>Pengembangan Tendik (Pelatihan dan Sertifikasi)</td>
+<td>[Tahun]</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Pimpinan UPPS</strong> <em>(Tabel 1.A.1 LKPS)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>Unit Kerja</th>
+<th>Nama Pejabat</th>
+<th>Periode Jabatan</th>
+<th>Pendidikan Terakhir</th>
+<th>Jabatan Fungsional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Direktur</td>
+<td>Arnoldus Triono</td>
+<td>Jan 2025 – sekarang</td>
+<td>S2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Ketua Senat</td>
+<td>Amiruddin</td>
+<td>1 Apr 2022 – sekarang</td>
+<td>S3</td>
+<td>Lektor Kepala</td>
+</tr>
+<tr>
+<td>Wadir Bidang Akademik</td>
+<td>Amiruddin</td>
+<td>31 Mar 2022 – sekarang</td>
+<td>S3</td>
+<td>Lektor Kepala</td>
+</tr>
+<tr>
+<td>Wadir Bidang Keuangan dan Umum</td>
+<td>Setiyo Cahyono</td>
+<td>31 Mar 2022 – sekarang</td>
+<td>S2</td>
+<td>Lektor</td>
+</tr>
+<tr>
+<td>Wadir Bidang Kemahasiswaan</td>
+<td>Prasetyo Adi Wibowo Putro</td>
+<td>7 Mei 2025 – sekarang</td>
+<td>S3</td>
+<td>Lektor</td>
+</tr>
+<tr>
+<td>Bag. AAK dan Kerja Sama</td>
+<td>Dedek Candra Siregar</td>
+<td>25 Mei 2025 – sekarang</td>
+<td>S2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Bag. Keuangan dan Umum (Plt)</td>
+<td>Kaiser Truman Hasoloan Sinaga</td>
+<td>14 Mei 2025 – sekarang</td>
+<td>S1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Pusat Penelitian dan PkM</td>
+<td>Girinoto</td>
+<td>31 Mar 2022 – sekarang</td>
+<td>S2</td>
+<td>Lektor</td>
+</tr>
+<tr>
+<td>Pusat Penjaminan Mutu</td>
+<td>Susila Windarta</td>
+<td>10 Feb 2025 – sekarang</td>
+<td>S3</td>
+<td>Lektor</td>
+</tr>
+<tr>
+<td>Unit Perpustakaan</td>
+<td>Yeni Farida</td>
+<td>16 Nov 2021 – sekarang</td>
+<td>S2</td>
+<td>Lektor</td>
+</tr>
+<tr>
+<td>Unit Bahasa</td>
+<td>Mareta Wahyu Ardyani</td>
+<td>3 Jan 2025 – sekarang</td>
+<td>S2</td>
+<td>Lektor</td>
+</tr>
+<tr>
+<td>Unit Teknologi Informasi</td>
+<td>Yulius Paulus Dharsono</td>
+<td>31 Mar 2022 – sekarang</td>
+<td>S2</td>
+<td>Pranata Komputer Muda</td>
+</tr>
+<tr>
+<td>Unit Laboratorium Terpadu</td>
+<td>Rizka Khairunnisa</td>
+<td>17 Jul 2025 – sekarang</td>
+<td>S2</td>
+<td>Lektor</td>
+</tr>
+<tr>
+<td>Unit Pengasuhan, Mental, dan Kedisiplinan</td>
+<td>Fetty Amelia</td>
+<td>10 Feb 2025 – sekarang</td>
+<td>S2</td>
+<td>Lektor</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rata-rata EWMP DTPR PS-RKS</strong> <em>(Tabel 1.A.4 LKPS, Tahun Semester/TS)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Nama DTPR</th>
+<th style="text-align:center">SKS Ajar (PS)</th>
+<th style="text-align:center">SKS Penelitian</th>
+<th style="text-align:center">SKS PkM</th>
+<th style="text-align:center">SKS Manajemen</th>
+<th style="text-align:center">Total</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Amiruddin</td>
+<td style="text-align:center">4,00</td>
+<td style="text-align:center">1,04</td>
+<td style="text-align:center">5,63</td>
+<td style="text-align:center">6,00</td>
+<td style="text-align:center">16,66</td>
+<td>Tugas tambahan sebagai Wadir &amp; Ketua Senat</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Arif Rahman Hakim</td>
+<td style="text-align:center">12,00</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">12,00</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Arizal</td>
+<td style="text-align:center">4,00</td>
+<td style="text-align:center">1,40</td>
+<td style="text-align:center">0,38</td>
+<td style="text-align:center">4,00</td>
+<td style="text-align:center">9,78</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Dimas Febriyan Priambodo</td>
+<td style="text-align:center">10,00</td>
+<td style="text-align:center">10,07</td>
+<td style="text-align:center">0,25</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">20,32</td>
+<td>Penelitian intensif pada TS; dalam proses normalisasi</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Ira Rosianal Hikmah</td>
+<td style="text-align:center">12,00</td>
+<td style="text-align:center">2,72</td>
+<td style="text-align:center">0,38</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">15,10</td>
+<td>—</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Jeckson Sidabutar</td>
+<td style="text-align:center">6,00</td>
+<td style="text-align:center">13,22</td>
+<td style="text-align:center">2,75</td>
+<td style="text-align:center">4,00</td>
+<td style="text-align:center">25,97</td>
+<td>Penugasan penelitian lintas unit; dalam proses normalisasi</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Magfirawaty</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">8,90</td>
+<td style="text-align:center">2,70</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">21,60</td>
+<td>Penugasan khusus luar kampus pada TS; dalam proses normalisasi</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Nanang Trianto</td>
+<td style="text-align:center">4,00</td>
+<td style="text-align:center">2,08</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">6,00</td>
+<td style="text-align:center">12,08</td>
+<td>—</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Prasetyo Adi Wibowo Putro</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">10,00</td>
+<td style="text-align:center">12,00</td>
+<td>Baru dilantik Mei 2025; SKS manajemen Wadir Kemahasiswaan</td>
+</tr>
+<tr>
+<td>10</td>
+<td>R. Budiarto Hadi Prakoso</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">2,25</td>
+<td style="text-align:center">2,00</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">14,25</td>
+<td>—</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rahmat Purwoko</td>
+<td style="text-align:center">12,00</td>
+<td style="text-align:center">2,08</td>
+<td style="text-align:center">1,00</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">15,08</td>
+<td>—</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Septia Ulfa Sunaringtyas</td>
+<td style="text-align:center">6,00</td>
+<td style="text-align:center">2,66</td>
+<td style="text-align:center">0,38</td>
+<td style="text-align:center">4,00</td>
+<td style="text-align:center">13,04</td>
+<td>—</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Setiyo Cahyono</td>
+<td style="text-align:center">4,00</td>
+<td style="text-align:center">0,88</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">6,00</td>
+<td style="text-align:center">10,88</td>
+<td>—</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Susila Windarta</td>
+<td style="text-align:center">11,00</td>
+<td style="text-align:center">4,87</td>
+<td style="text-align:center">0,73</td>
+<td style="text-align:center">6,00</td>
+<td style="text-align:center">22,60</td>
+<td>Tugas tambahan Kepala Pus Jamut; dalam proses normalisasi</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Tiyas Yulita</td>
+<td style="text-align:center">11,00</td>
+<td style="text-align:center">5,08</td>
+<td style="text-align:center">0,38</td>
+<td style="text-align:center">0,00</td>
+<td style="text-align:center">16,46</td>
+<td>—</td>
+</tr>
+<tr>
+<td>—</td>
+<td><strong>Rata-rata</strong></td>
+<td style="text-align:center"><strong>6,40</strong></td>
+<td style="text-align:center"><strong>3,82</strong></td>
+<td style="text-align:center"><strong>1,10</strong></td>
+<td style="text-align:center"><strong>2,40</strong></td>
+<td style="text-align:center"><strong>15,45</strong></td>
+<td>Memenuhi ketentuan 12–16 SKS rata-rata</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Catatan EWMP:</strong> Empat DTPR dengan total EWMP di atas 16 SKS pada TS (Dimas, Jeckson, Magfirawaty, Susila) disebabkan oleh penugasan penelitian intensif dan/atau tugas tambahan institusional yang bersifat sementara, bukan merupakan kondisi sistemik. Poltek SSN telah mengidentifikasi kondisi ini dan melakukan penataan beban kerja pada TS+1. Uraian tindak lanjut tersedia pada bagian C.1.4 [Pengendalian].</p>
+</blockquote>
+<hr>
+<h4 id="aspek-4--aspek-lain-dalam-siklus-ppepp-kemahasiswaan-kerjasama-sarana-prasarana">Aspek 4 — Aspek Lain dalam Siklus PPEPP (Kemahasiswaan, Kerjasama, Sarana Prasarana) </h4>
+<p><strong>Kebijakan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Regulasi</th>
+<th>Relevansi</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Keputusan Direktur Poltek SSN Nomor 13.1 Tahun 2022 tentang Rencana Induk PkM Poltek SSN 2022–2026</td>
+<td>Arah kebijakan pengabdian kepada masyarakat dan kerjasama</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SOP Nomor 060.1/Ps/11/2023 tentang Monitoring dan Evaluasi Kerjasama</td>
+<td>Prosedur evaluasi dan monitoring MoU aktif</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SOP Nomor 060.2/Ps/11/2023 tentang Penyusunan Dokumen Kerjasama</td>
+<td>Prosedur pembentukan kerjasama baru</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Peraturan Badan Siber dan Sandi Negara Nomor 12 Tahun 2019 tentang OTK Poltek SSN (Bab Aset dan Sarana)</td>
+<td>Kewenangan pengelolaan sarana prasarana</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+Poltek SSN mengelola aspek kemahasiswaan, kerjasama, dan sarana prasarana sebagai bagian integral dari tata kelola yang berkualitas. Kegiatan kemahasiswaan dikelola oleh Wadir Bidang Kemahasiswaan dan Unit Pengasuhan, Mental, dan Kedisiplinan, mencakup pembinaan organisasi mahasiswa, kegiatan akademik ekstra-kurikuler, dan layanan kesejahteraan mahasiswa. Pengelolaan kerjasama dilaksanakan melalui Subbag Humas dengan mekanisme yang terstandar melalui SOP 060.1 dan 060.2. Per TS, Poltek SSN memiliki [XX] dokumen kerjasama aktif dengan mitra DUDIKA, pemerintah, dan institusi pendidikan, dengan [XX]% di antaranya telah menghasilkan kegiatan nyata yang terukur. Sarana prasarana akademik, termasuk laboratorium keamanan siber, forensik, dan jaringan, dikelola oleh Unit Laboratorium Terpadu dengan mekanisme pengelolaan berbasis logbook dan pemeliharaan berkala. Perencanaan sarana prasarana mengacu pada Renstra Poltek SSN dan dilaporkan dalam laporan kinerja tahunan.</p>
+<p><strong>Standar Mutu &amp; Indikator</strong> <em>(Kepdir No. XYZ.1 Tahun 2025)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Pernyataan Standar Mutu</th>
+<th>Indikator</th>
+<th>Unit Kerja</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Direktur menetapkan kebijakan pengelolaan kerjasama untuk memperluas jejaring institusi</td>
+<td>Jumlah dokumen kerjasama aktif dengan mitra DUDIKA, Pemerintah, atau Institusi Pendidikan tiap tahun</td>
+<td>Subbag Humas</td>
+<td>≥ 3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Direktur memastikan kerjasama yang terjalin memiliki manfaat nyata bagi tridharma</td>
+<td>Persentase dokumen kerjasama yang memiliki tindak lanjut berupa kegiatan nyata terukur</td>
+<td>Subbag Humas</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Direktur memastikan tersedianya sarana prasarana tata kelola yang memadai</td>
+<td>Persentase ketersediaan sarana berupa instrumen penilaian ketercapaian kinerja (IKU)</td>
+<td>Subbag Renkeu</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Direktur menetapkan sarana prasarana tata kelola yang memadai</td>
+<td>Persentase pemenuhan kebutuhan infrastruktur TI dan sistem elektronik penunjang tridharma</td>
+<td>Unit TI</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Direktur memastikan tersedianya sarana prasarana pendidikan</td>
+<td>Persentase pemenuhan kebutuhan prasarana pendidikan (ruang kelas, lab, perpustakaan) sesuai standar</td>
+<td>Subbag PART</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Direktur memastikan tersedianya sarana prasarana pendidikan</td>
+<td>Persentase pemenuhan kebutuhan sarana pendidikan (perangkat laboratorium) untuk proses perkuliahan praktik</td>
+<td>Unit Labdu</td>
+<td>75%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="c11b--kebijakan-standar-dan-indikator-fungsi-spmi-dengan-sdm-kompeten-sebagai-pelaksana">C.1.1.B — Kebijakan, Standar, dan Indikator Fungsi SPMI dengan SDM Kompeten sebagai Pelaksana </h3>
+<p>Poltek SSN telah menetapkan kebijakan, standar, dan indikator yang mengatur fungsi SPMI serta menjamin ketersediaan SDM pelaksana SPMI yang kompeten di tingkat PT maupun UPPS/PS, dalam satu siklus PPEPP yang terintegrasi.</p>
+<hr>
+<h4 id="aspek-1--fungsi-spmi">Aspek 1 — Fungsi SPMI </h4>
+<p><strong>Kebijakan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Regulasi</th>
+<th>Relevansi</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 53 Tahun 2023 tentang Penjaminan Mutu Pendidikan Tinggi</td>
+<td>Mewajibkan penerapan SPMI berbasis siklus PPEPP di seluruh PT</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 39 Tahun 2025 tentang SN-DIKTI</td>
+<td>Acuan standar nasional yang digunakan dalam penyusunan standar mutu internal</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Peraturan Badan Siber dan Sandi Negara Nomor 1 Tahun 2023 tentang Statuta Poltek SSN, Pasal 90 ayat (5)</td>
+<td>Dasar hukum langsung penerbitan dan penerapan dokumen SPMI Poltek SSN</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Keputusan Direktur Poltek SSN Nomor XYZ.1 Tahun 2025 tentang Standar Mutu Internal Poltek SSN</td>
+<td>Menetapkan seluruh standar mutu internal yang berlaku per 15 Februari 2025</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+Sistem Penjaminan Mutu Internal (SPMI) Poltek SSN dikelola oleh Pusat Penjaminan Mutu (Pus Jamut) di tingkat PT dan Gugus Kendali Mutu (GKM) di tingkat UPPS/PS, membentuk struktur dua lapis yang menjamin konsistensi pelaksanaan siklus PPEPP. Dokumen SPMI Poltek SSN terdiri dari empat komponen wajib yang telah ditetapkan melalui Kepdir No. XYZ.1 Tahun 2025. Siklus AMI dilaksanakan secara berkala berdasarkan pedoman audit yang ditetapkan Direktur, dengan hasil yang dibahas dalam Rapat Tinjauan Manajemen (RTM) setiap tahun. Laporan RTM T.A. 2024–2025 telah tersedia dan menjadi bukti nyata berjalannya siklus PPEPP. Temuan AMI ditindaklanjuti oleh unit kerja terkait dalam batas waktu yang disepakati, dengan persentase tindak lanjut sebesar [XX]% sesuai hasil RTM terakhir.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>Tingkat PT    : Pusat Penjaminan Mutu (Pus Jamut) — koordinasi, standar &amp; audit
+                         ↕
+Tingkat UPPS/PS : Gugus Kendali Mutu (GKM) — pelaksana siklus PPEPP &amp; pelaporan
+</code></pre><p><strong>Empat Komponen Dokumen SPMI yang Telah Ditetapkan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Komponen Dokumen SPMI</th>
+<th>Status</th>
+<th>Nomor Dokumen</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Kebijakan Mutu</strong></td>
+<td>Tersedia</td>
+<td>[Nomor]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Manual Mutu</strong> (Panduan PPEPP)</td>
+<td>Tersedia</td>
+<td>[Nomor]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Standar Mutu</strong> (Kepdir XYZ.1/2025)</td>
+<td>Tersedia</td>
+<td>Kepdir XYZ.1/2025</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Formulir SPMI</strong> (instrumen monitoring &amp; evaluasi)</td>
+<td>Tersedia</td>
+<td>[Nomor]</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standar Mutu &amp; Indikator</strong> <em>(Kepdir No. XYZ.1 Tahun 2025 — Standar Penjaminan Mutu)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Pernyataan Standar Mutu</th>
+<th>Indikator</th>
+<th>Unit Kerja</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Direktur menetapkan sistem manajemen penjaminan mutu internal</td>
+<td>Persentase ketersediaan dokumen standar mutu internal (4 komponen SPMI)</td>
+<td>Pus Jamut</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Direktur menetapkan sistem manajemen penjaminan mutu internal</td>
+<td>Persentase realisasi tindak lanjut hasil AMI sesuai dengan hasil RTM</td>
+<td>Pus Jamut</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Direktur memastikan ketercapaian target indikator mutu tiap tahun</td>
+<td>Persentase nilai AMI berdasarkan kesesuaian target indikator mutu (tupoksi) tiap unit kerja</td>
+<td>Pus Jamut</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Direktur memastikan ketercapaian target indikator mutu tiap tahun</td>
+<td>Persentase nilai AMI berdasarkan kesesuaian standar sarana prasarana</td>
+<td>Pus Jamut</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Direktur memastikan ketercapaian target indikator mutu tiap tahun</td>
+<td>Persentase nilai AMI berdasarkan kesesuaian standar kompetensi SDM dan lulusan</td>
+<td>Pus Jamut</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Direktur memastikan ketercapaian target indikator mutu tiap tahun</td>
+<td>Persentase nilai AMI berdasarkan kesesuaian standar tata pamong</td>
+<td>Pus Jamut</td>
+<td>75%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bukti Pelaksanaan Siklus SPMI (3 Tahun Terakhir):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tahun</th>
+<th>Laporan AMI</th>
+<th>Laporan RTM</th>
+<th>Tindak Lanjut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TS-2</td>
+<td>[Link Laporan AMI TS-2]</td>
+<td>[Link Notulen RTM TS-2]</td>
+<td>[Link TL TS-2]</td>
+</tr>
+<tr>
+<td>TS-1</td>
+<td>[Link Laporan AMI TS-1]</td>
+<td>[Link Notulen RTM TS-1]</td>
+<td>[Link TL TS-1]</td>
+</tr>
+<tr>
+<td>TS</td>
+<td>[Link Laporan AMI TS]</td>
+<td>[Link Laporan RTM T.A. 2024-2025]</td>
+<td>[Link TL TS]</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="aspek-2--sdm-kompeten-sebagai-pelaksana-spmi">Aspek 2 — SDM Kompeten sebagai Pelaksana SPMI </h4>
+<p><strong>Kebijakan:</strong></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Regulasi</th>
+<th>Relevansi</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Keputusan Direktur Poltek SSN Nomor XYZ.1 Tahun 2025 tentang Standar Mutu Internal</td>
+<td>Menetapkan standar kompetensi SDM pelaksana SPMI</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Keputusan Direktur Poltek SSN tentang Pengangkatan Kepala Pusat Penjaminan Mutu</td>
+<td>SK pengangkatan Pus Jamut sebagai unit pelaksana SPMI tingkat PT</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Keputusan Direktur Poltek SSN tentang Pengangkatan Gugus Kendali Mutu</td>
+<td>SK pengangkatan GKM sebagai pelaksana SPMI tingkat UPPS/PS</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+SDM pelaksana SPMI Poltek SSN terdiri dari auditor mutu internal yang bertugas di Pusat Penjaminan Mutu (tingkat PT) dan Gugus Kendali Mutu (tingkat UPPS/PS). Seluruh auditor diangkat melalui SK Direktur dengan kriteria kompetensi yang ditetapkan dalam standar mutu internal. Pengembangan kompetensi auditor dilaksanakan melalui pelatihan Auditor Mutu Internal yang diselenggarakan secara berkala, dengan target minimal 80% auditor bersertifikat sesuai Kepdir No. XYZ.1/2025. Per TS, dari [XX] auditor yang ada, [XX] ([XX]%) telah mengikuti pelatihan/sertifikasi auditor mutu internal. Program peningkatan kompetensi auditor terus dilaksanakan dalam rangka memenuhi target standar mutu yang telah ditetapkan.</p>
+<p><strong>Standar Mutu &amp; Indikator</strong> <em>(Kepdir No. XYZ.1 Tahun 2025 — Standar Penjaminan Mutu)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Pernyataan Standar Mutu</th>
+<th>Indikator</th>
+<th>Unit Kerja</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Direktur memastikan ketersediaan SDM pelaksana SPMI yang kompeten dan profesional</td>
+<td>Persentase auditor mutu internal yang memiliki sertifikat pelatihan atau sertifikasi kompetensi sebagai auditor</td>
+<td>Pus Jamut</td>
+<td>80%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Data SDM Pelaksana SPMI</strong> <em>(Tabel 1.B LKPS)</em>:</p>
+<table>
+<thead>
+<tr>
+<th>Unit SPMI</th>
+<th style="text-align:center">Total Auditor</th>
+<th style="text-align:center">Bersertifikat</th>
+<th style="text-align:center">Belum Bersertifikat</th>
+<th style="text-align:center">Frekuensi Audit/Tahun</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pusat Penjaminan Mutu (Tingkat PT)</td>
+<td style="text-align:center">21</td>
+<td style="text-align:center">[XX]</td>
+<td style="text-align:center">[XX]</td>
+<td style="text-align:center">[XX] kali/tahun</td>
+</tr>
+<tr>
+<td>Gugus Kendali Mutu (Tingkat UPPS/PS)</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">[XX]</td>
+<td style="text-align:center">[XX]</td>
+<td style="text-align:center">[XX] kali/tahun</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Catatan:</strong> Data jumlah auditor bersertifikat dan frekuensi audit per tahun agar dilengkapi dari data terbaru Pusat Penjaminan Mutu sebelum submit ke SALAM LAM Infokom.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p><strong>Seluruh bukti data dukung kriteria C.1.1 [Penetapan] tersedia di:</strong><br>
+<code>[Link repositori Google Drive / OneDrive Poltek SSN — folder: C.1 Budaya Mutu / 1.1 Penetapan]</code><br>
+<em>(Tautan akan dilengkapi pada pengisian final di aplikasi SALAM LAM Infokom)</em></p>
+</blockquote>
+<hr>
+<h2 id="checklist-kesiapan-submit--c11-penetapan">CHECKLIST KESIAPAN SUBMIT — C.1.1 [PENETAPAN] </h2>
+<p><em>Centang setiap item sebelum pengisian di SALAM LAM Infokom:</em></p>
+<h3 id="butir-11a--tata-kelola-internal-target-skor-300">Butir 1.1A — Tata Kelola Internal (Target: skor 3,00) </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 1 Akademik:</strong> Kebijakan (SK/Peraturan) dengan link bukti ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 1 Akademik:</strong> Standar mutu + indikator dari Kepdir XYZ.1/2025 ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 1 Akademik:</strong> ≥ 5 SOP bernomor resmi — nomor &amp; link bukti dilengkapi</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 1 Akademik:</strong> Narasi deskriptif (paragraf, bukan hanya tabel) ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 2 Keuangan:</strong> Kebijakan dengan link bukti ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 2 Keuangan:</strong> Standar mutu + indikator ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 2 Keuangan:</strong> ≥ 4 SOP bernomor resmi — nomor &amp; link bukti dilengkapi</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 2 Keuangan:</strong> Narasi deskriptif ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 3 SDM:</strong> Kebijakan dengan link bukti ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 3 SDM:</strong> Standar mutu + indikator ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 3 SDM:</strong> ≥ 4 SOP bernomor resmi — nomor &amp; link bukti dilengkapi</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 3 SDM:</strong> Narasi deskriptif dengan penjelasan EWMP ✅ tersedia</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Aspek 4 Lainnya:</strong> Kebijakan &amp; SOP kerjasama ✅ tersedia</li>
+</ul>
+<h3 id="butir-11b--spmi--sdm-kompeten-target-skor-300">Butir 1.1B — SPMI + SDM Kompeten (Target: skor 3,00) </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> 4 komponen SPMI tersedia dengan link bukti — nomor &amp; link dilengkapi</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <strong>Nomor SK Kepdir SPMI dikonfirmasi dan diperbarui</strong> (ganti semua "XYZ.1" dengan nomor resmi)</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Laporan AMI ≥ 1 tahun terakhir dengan link tersedia — link dilengkapi</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Laporan RTM T.A. 2024–2025 ✅ tersedia — link dilengkapi</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> SK Pengangkatan Pus Jamut dengan link tersedia — link dilengkapi</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> SK Pengangkatan GKM dengan link tersedia — link dilengkapi</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Data Tabel 1.B (jumlah auditor bersertifikat + frekuensi audit) — data dilengkapi dari Pus Jamut</li>
+</ul>
+<hr>
+<p><em>Dokumen ini merupakan Revisi 2 dari LED C.1.1 [Penetapan] PS-RKS Poltek SSN. Disusun mengacu pada:</em></p>
+<ul>
+<li><em>Matriks Penilaian LAM Infokom 2.1 – 2025</em></li>
+<li><em>Keputusan Direktur Poltek SSN Nomor XYZ.1 Tahun 2025 tentang Standar Mutu Internal</em></li>
+<li><em>LKPS PS-RKS Poltek SSN Tahun 2025</em></li>
+<li><em>Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 39 Tahun 2025 tentang SN-DIKTI</em></li>
+<li><em>Panduan Penyusunan LED &amp; LKPS Reakreditasi PS-RKS — LAM Infokom Instrumen 2.1 (November 2025)</em></li>
+<li><em>LED PS-RPK Poltek SSN Tahun 2024 (acuan format)</em></li>
+</ul>
+</div>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

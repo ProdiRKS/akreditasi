@@ -1,0 +1,1107 @@
+<!DOCTYPE html><html><head>
+      <title>LED-C6.1-Diferensiasi-Misi-Penetapan</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\ARIZAL\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.22\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="laporan-evaluasi-diri">LAPORAN EVALUASI DIRI </h1>
+<h2 id="program-studi-rekayasa-keamanan-siber-d4--sarjana-terapan">PROGRAM STUDI REKAYASA KEAMANAN SIBER (D4 / Sarjana Terapan) </h2>
+<h3 id="politeknik-siber-dan-sandi-negara">POLITEKNIK SIBER DAN SANDI NEGARA </h3>
+<h4 id="lam-infokom-instrumen-21--2025">LAM Infokom Instrumen 2.1 — 2025 </h4>
+<hr>
+<blockquote>
+<p><strong>BAGIAN:</strong> Kriteria C.6 — Diferensiasi Misi (C.6.1 Penetapan)<br>
+<strong>Status:</strong> Draf awal — perlu pengisian data/link bukti yang ditandai <code>[...]</code><br>
+<strong>Tanggal penyusunan:</strong> 20 April 2026<br>
+<strong>Sumber acuan:</strong> Kepdir No. 06.2 Tahun 2022 (VMTS PS RKS); Renstra Poltek SSN 2025–2029</p>
+</blockquote>
+<hr>
+<h2 id="c-kriteria">C. KRITERIA </h2>
+<h3 id="c6-diferensiasi-misi">C.6. DIFERENSIASI MISI </h3>
+<p>Program Studi Rekayasa Keamanan Siber (PS RKS) Politeknik Siber dan Sandi Negara (Poltek SSN) memiliki diferensiasi misi yang distingtif dan strategis dibandingkan program studi sejenis di Indonesia. Sebagai satu-satunya program studi sarjana terapan bidang keamanan siber yang diselenggarakan oleh perguruan tinggi kedinasan di bawah Badan Siber dan Sandi Negara (BSSN), PS RKS memiliki mandat unik: mencetak aparatur sipil negara yang unggul di bidang keamanan siber dan sandi untuk mendukung kedaulatan dan keamanan nasional. Diferensiasi ini tercermin secara konsisten dalam Visi, Misi, Tujuan, dan Strategi (VMTS) yang ditetapkan secara formal dan selaras dari tingkat nasional (BSSN), institusi (Poltek SSN), hingga program studi (PS RKS).</p>
+<hr>
+<h3 id="c61-penetapan-visi-misi-tujuan-dan-strategi-program-studi">C.6.1. [PENETAPAN] Visi, Misi, Tujuan, dan Strategi Program Studi </h3>
+<p>Program Studi Rekayasa Keamanan Siber telah menetapkan Visi, Misi, Tujuan, dan Strategi (VMTS) secara formal melalui mekanisme yang sistematis, partisipatif, dan berjenjang. Penetapan VMTS PS RKS berlandaskan pada:</p>
+<ol>
+<li><strong>Peraturan Presiden Nomor 12 Tahun 2025</strong> tentang Rencana Pembangunan Jangka Menengah Nasional (RPJMN) Tahun 2025–2029 — sebagai arah pembangunan nasional yang menjadi landasan perencanaan K/L.</li>
+<li><strong>Peraturan Presiden Nomor 47 Tahun 2023</strong> tentang Strategi Nasional Keamanan Siber dan Sandi Negara — menegaskan urgensi pengembangan SDM keamanan siber nasional.</li>
+<li><strong>Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 39 Tahun 2025</strong> tentang Standar Nasional Pendidikan Tinggi — acuan standar penyelenggaraan tridharma perguruan tinggi.</li>
+<li><strong>Peraturan Badan Siber dan Sandi Negara Nomor 1 Tahun 2023</strong> tentang Statuta Politeknik Siber dan Sandi Negara — landasan hukum kelembagaan dan tata kelola Poltek SSN.</li>
+<li><strong>Rencana Strategis Poltek SSN Tahun 2025–2029</strong> — dokumen perencanaan jangka menengah institusi yang memuat Visi dan Misi Poltek SSN serta arah pengembangan seluruh program studi.</li>
+<li><strong>Keputusan Direktur Poltek SSN Nomor 06.2 Tahun 2022</strong> tentang Visi, Misi, Tujuan, dan Strategi Program Studi Rekayasa Keamanan Siber — dokumen penetapan resmi VMTS PS RKS, ditetapkan pada 31 Maret 2022.</li>
+</ol>
+<hr>
+<h3 id="c61a--keselarasan-vertikal-vmts-bssn--poltek-ssn--ps-rks">C.6.1.A — Keselarasan Vertikal VMTS: BSSN → Poltek SSN → PS RKS </h3>
+<p>Keselarasan vertikal VMTS merupakan prasyarat utama diferensiasi misi yang autentik. PS RKS membangun keselarasan tiga lapis: visi nasional BSSN, visi institusi Poltek SSN, dan visi keilmuan PS RKS.</p>
+<h4 id="1-visi-dan-misi-bssn-renstra-bssn-20252029">1. Visi dan Misi BSSN (Renstra BSSN 2025–2029) </h4>
+<p><strong>Visi BSSN:</strong></p>
+<blockquote>
+<p><em>"BSSN menjadi PERISAI bagi Keamanan Siber dan Sandi Negara dalam Rangka Mewujudkan Indonesia Maju Menuju Indonesia Emas 2045"</em></p>
+</blockquote>
+<p><strong>Misi BSSN yang relevan dengan Poltek SSN:</strong></p>
+<ol>
+<li>Mengoptimalkan ketahanan dan keamanan siber dan sandi Nasional.</li>
+<li>Meningkatkan dampak langsung reformasi birokrasi BSSN bagi masyarakat.</li>
+</ol>
+<h4 id="2-visi-dan-misi-poltek-ssn-renstra-poltek-ssn-20252029">2. Visi dan Misi Poltek SSN (Renstra Poltek SSN 2025–2029) </h4>
+<p><strong>Visi Poltek SSN:</strong></p>
+<blockquote>
+<p><em>"Menjadi politeknik unggulan di bidang keamanan siber dan sandi yang berdaya saing global, serta berdampak nyata bagi pembangunan bangsa melalui pendidikan, riset terapan, dan tata kelola yang baik serta transformasi budaya yang berkelanjutan."</em></p>
+</blockquote>
+<p><strong>Misi Poltek SSN:</strong></p>
+<ol>
+<li>Menyelenggarakan program pembelajaran berkualitas tinggi dan berdaya saing global dalam membentuk aparatur negara yang profesional dan responsif di bidang keamanan siber dan sandi;</li>
+<li>Menyelenggarakan penelitian yang berkualitas tinggi dan berdampak nyata bagi pengembangan dan penerapan pengetahuan dan keahlian di bidang keamanan siber dan sandi;</li>
+<li>Menyelenggarakan pengabdian kepada masyarakat berkualitas tinggi melalui riset terapan yang dapat mendorong transformasi budaya keamanan siber dan sandi pada masyarakat;</li>
+<li>Menyelenggarakan tata kelola yang baik dalam membentuk SDM siber dan sandi yang bermental tangguh dan bermoral tinggi.</li>
+</ol>
+<p><strong>Tujuan Poltek SSN (dari Renstra 2025–2029):</strong></p>
+<ol>
+<li>Menghasilkan lulusan yang unggul dan berperan aktif dalam pengembangan digitalisasi sistem pemerintahan yang aman dan dapat diandalkan <em>(target: ≥ 83% lulusan bernilai minimum "Baik" pada 2029)</em>;</li>
+<li>Meningkatnya rekognisi nasional terhadap luaran penelitian dan pengabdian kepada masyarakat di bidang keamanan siber dan sandi;</li>
+<li>Meningkatnya mutu tata kelola kelembagaan Poltek SSN yang transparan, akuntabel, dan berorientasi hasil.</li>
+</ol>
+<h4 id="3-visi-misi-tujuan-dan-strategi-ps-rks-kepdir-no-062-tahun-2022">3. Visi, Misi, Tujuan, dan Strategi PS RKS (Kepdir No. 06.2 Tahun 2022) </h4>
+<p><strong>Visi PS RKS:</strong></p>
+<blockquote>
+<p><em>"Menjadi program studi yang berorientasi global dan pencetak sarjana terapan di bidang keamanan siber yang unggul dan berjiwa Pancasila, serta berkontribusi dalam keamanan nasional."</em></p>
+</blockquote>
+<p><strong>Misi PS RKS:</strong></p>
+<ol>
+<li>Menyelenggarakan pendidikan vokasional bidang keamanan siber secara efektif dan efisien;</li>
+<li>Menyiapkan calon aparatur sipil negara yang bermental kepribadian tangguh, bermoral tinggi, berkompetensi dan mampu bersaing secara global di bidang keamanan siber;</li>
+<li>Melaksanakan penelitian di bidang keamanan siber yang berkualitas dan berorientasi pada pemenuhan kebutuhan pengguna;</li>
+<li>Melaksanakan kegiatan pengabdian kepada masyarakat melalui penerapan ilmu pengetahuan dan teknologi di bidang keamanan siber yang bermutu dan bermanfaat.</li>
+</ol>
+<p><strong>Tujuan PS RKS</strong> — menghasilkan lulusan sebagai calon aparatur sipil negara yang:</p>
+<ol>
+<li>Memiliki kompetensi di bidang keamanan siber dan sandi, berintegritas, terbuka dan tanggap terhadap kemajuan ilmu pengetahuan dan teknologi serta mampu bersaing secara global;</li>
+<li>Memiliki jiwa kepemimpinan, mampu bekerjasama dan mampu menyampaikan gagasan secara bertanggung jawab;</li>
+<li>Mampu menerapkan dan mengembangkan ilmu terkait keamanan siber dan sandi yang diterima selama masa pendidikan dalam melaksanakan pekerjaan;</li>
+<li>Mampu menghasilkan produk penelitian di bidang keamanan siber dan kriptografi yang berkualitas;</li>
+<li>Mampu memberikan kontribusi nyata melalui kegiatan pengabdian masyarakat yang berdampak dan bermanfaat bagi masyarakat.</li>
+</ol>
+<p><strong>Strategi PS RKS:</strong></p>
+<ol>
+<li>Menegakkan Sistem Penjaminan Mutu akademik dan non-akademik secara sistematis, terintegrasi, dan berkelanjutan untuk mencapai standar internasional pendidikan;</li>
+<li>Meningkatkan kapasitas dan kualitas tenaga pendidik dan tenaga kependidikan sebagai penyelenggara pendidikan bidang akademik dan pengasuhan;</li>
+<li>Meningkatkan kualitas mahasiswa dan lulusan dengan memastikan setiap lulusan memiliki kompetensi di bidang keamanan siber dan memiliki karakter etos sandi, melalui pengembangan kurikulum yang adaptif terhadap perkembangan teknologi dan kebutuhan pengguna, penyediaan sarana prasarana pembelajaran yang memadai, serta pengembangan pola komunikasi yang mendukung suasana akademik;</li>
+<li>Meningkatkan kualitas dan kuantitas publikasi hasil penelitian dosen dan mahasiswa serta meningkatkan pengelolaan penyelenggaraan penelitian dan pengabdian pada masyarakat berbasis kebermanfaatan bagi pengguna di bidang keamanan siber dan sandi, khususnya yang berdampak terhadap keamanan nasional;</li>
+<li>Meningkatkan kerjasama antar institusi, baik dari unsur pemerintah, dunia usaha, dunia industri maupun perguruan tinggi lain baik skala nasional maupun internasional.</li>
+</ol>
+<hr>
+<h3 id="c61b--matriks-keselarasan-vmts-bssn--poltek-ssn--ps-rks">C.6.1.B — Matriks Keselarasan VMTS BSSN → Poltek SSN → PS RKS </h3>
+<table>
+<thead>
+<tr>
+<th>Dimensi</th>
+<th>Visi/Misi BSSN</th>
+<th>Visi/Misi Poltek SSN</th>
+<th>Visi/Misi PS RKS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Visi</strong></td>
+<td>BSSN sebagai PERISAI keamanan siber &amp; sandi nasional menuju Indonesia Emas 2045</td>
+<td>Politeknik unggulan keamanan siber &amp; sandi berdaya saing global, berdampak bagi bangsa</td>
+<td>Program studi berorientasi global, pencetak sarjana terapan keamanan siber yang unggul &amp; berjiwa Pancasila, berkontribusi pada keamanan nasional</td>
+</tr>
+<tr>
+<td><strong>Pendidikan</strong></td>
+<td>Optimasi SDM keamanan siber nasional (Misi 1)</td>
+<td>Pembelajaran berkualitas tinggi membentuk aparatur profesional di bidang keamanan siber &amp; sandi (Misi 1)</td>
+<td>Pendidikan vokasional keamanan siber yang efektif &amp; efisien; menyiapkan ASN berkompetensi global (Misi 1 &amp; 2)</td>
+</tr>
+<tr>
+<td><strong>Penelitian</strong></td>
+<td>Penguatan kryptografi &amp; ketahanan siber</td>
+<td>Penelitian berkualitas tinggi berdampak nyata pada pengetahuan keamanan siber &amp; sandi (Misi 2)</td>
+<td>Penelitian keamanan siber yang berkualitas berorientasi kebutuhan pengguna (Misi 3)</td>
+</tr>
+<tr>
+<td><strong>Pengabdian</strong></td>
+<td>Transformasi ekosistem digital yang aman</td>
+<td>Pengabdian melalui riset terapan mendorong budaya keamanan siber di masyarakat (Misi 3)</td>
+<td>Pengabdian melalui IPTEK keamanan siber yang bermutu &amp; bermanfaat (Misi 4)</td>
+</tr>
+<tr>
+<td><strong>Tata Kelola</strong></td>
+<td>Reformasi birokrasi berdampak (Misi 2)</td>
+<td>Tata kelola baik membentuk SDM bermental tangguh &amp; bermoral tinggi (Misi 4)</td>
+<td>Penjaminan mutu sistematis menuju standar internasional (Strategi 1)</td>
+</tr>
+<tr>
+<td><strong>Orientasi Lulusan</strong></td>
+<td>Aparatur siber &amp; sandi nasional</td>
+<td>Lulusan unggul aktif dalam digitalisasi pemerintahan yang aman</td>
+<td>ASN berkompetensi keamanan siber &amp; sandi, berdaya saing global (Tujuan 1)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="c61c--diferensiasi-misi-ps-rks-dibandingkan-program-studi-sejenis">C.6.1.C — Diferensiasi Misi PS RKS dibandingkan Program Studi Sejenis </h3>
+<p>PS RKS Poltek SSN memiliki diferensiasi yang jelas dan substantif dibandingkan program studi keamanan siber atau informatika sejenis di Indonesia:</p>
+<table>
+<thead>
+<tr>
+<th>Aspek Diferensiasi</th>
+<th>PS RKS Poltek SSN</th>
+<th>PS Keamanan Siber Lain (umumnya)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Penyelenggara</strong></td>
+<td>Perguruan tinggi kedinasan di bawah BSSN — satu-satunya di Indonesia</td>
+<td>Perguruan tinggi umum (negeri/swasta)</td>
+</tr>
+<tr>
+<td><strong>Mandat lulusan</strong></td>
+<td>Calon Aparatur Sipil Negara (ASN) bidang keamanan siber &amp; sandi untuk kepentingan nasional</td>
+<td>Lulusan untuk sektor swasta, pemerintah umum, atau pasar bebas</td>
+</tr>
+<tr>
+<td><strong>Orientasi keilmuan</strong></td>
+<td>Keamanan siber berbasis kepentingan nasional, ketahanan siber negara, dan persandian</td>
+<td>Keamanan siber berorientasi industri/komersial atau akademik umum</td>
+</tr>
+<tr>
+<td><strong>Pembina teknis</strong></td>
+<td>BSSN sebagai leading sector keamanan siber nasional — pembina langsung dan pengguna utama lulusan</td>
+<td>Tidak memiliki keterkaitan langsung dengan otoritas keamanan siber nasional</td>
+</tr>
+<tr>
+<td><strong>Kurikulum</strong></td>
+<td>Mengintegrasikan kompetensi keamanan siber, persandian, karakter ASN, dan kepentingan pertahanan nasional</td>
+<td>Kurikulum berbasis kebutuhan industri umum/akademik</td>
+</tr>
+<tr>
+<td><strong>Regulasi acuan</strong></td>
+<td>Perpres 47/2023 (Stranas Keamanan Siber), Statuta Poltek SSN, kebijakan BSSN</td>
+<td>Standar nasional perguruan tinggi umum</td>
+</tr>
+<tr>
+<td><strong>Rekognisi</strong></td>
+<td>Keterkaitan langsung dengan ekosistem keamanan siber nasional (BSSN, BIN, TNI, Polri, K/L strategis)</td>
+<td>Rekognisi melalui sertifikasi industri umum</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="c61d--proses-penetapan-vmts-yang-partisipatif">C.6.1.D — Proses Penetapan VMTS yang Partisipatif </h3>
+<p>Visi, Misi, Tujuan, dan Strategi PS RKS ditetapkan melalui proses yang melibatkan berbagai pemangku kepentingan (stakeholder), sehingga menjamin relevansi, akseptabilitas, dan akuntabilitas VMTS:</p>
+<table>
+<thead>
+<tr>
+<th>Tahapan</th>
+<th>Kegiatan</th>
+<th>Pemangku Kepentingan yang Dilibatkan</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Analisis kebutuhan</td>
+<td>Kajian kebutuhan SDM keamanan siber nasional, benchmark program studi sejenis, evaluasi VMTS periode sebelumnya</td>
+<td>Tim PS RKS, Poltek SSN, perwakilan BSSN</td>
+<td>[Link dokumen kajian]</td>
+</tr>
+<tr>
+<td>Penyusunan draf</td>
+<td>Perumusan draf VMTS oleh tim PS RKS dengan mengacu pada Renstra Poltek SSN dan kebijakan BSSN</td>
+<td>Kaprodi, dosen tetap PS RKS, pimpinan Poltek SSN</td>
+<td>[Link notulen rapat]</td>
+</tr>
+<tr>
+<td>Konsultasi stakeholder</td>
+<td>Diskusi dan masukan dari pengguna lulusan, alumni, dan pakar keamanan siber</td>
+<td>BSSN, [instansi pengguna lulusan], alumni PS RKS</td>
+<td>[Link bukti FGD/notulen]</td>
+</tr>
+<tr>
+<td>Finalisasi &amp; penetapan</td>
+<td>Pengesahan melalui Keputusan Direktur Poltek SSN</td>
+<td>Direktur Poltek SSN</td>
+<td>Kepdir No. 06.2 Tahun 2022</td>
+</tr>
+<tr>
+<td>Sosialisasi</td>
+<td>Penyebarluasan VMTS kepada sivitas akademika dan pemangku kepentingan</td>
+<td>Seluruh dosen, tendik, mahasiswa PS RKS</td>
+<td>[Link bukti sosialisasi]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+Penetapan VMTS PS RKS dilaksanakan melalui proses kajian yang sistematis dan partisipatif. Draf VMTS dirumuskan dengan mempertimbangkan: (1) arah kebijakan strategis BSSN sebagai instansi pembina, (2) Renstra Poltek SSN 2025–2029 sebagai dokumen perencanaan jangka menengah institusi, (3) analisis kebutuhan pengguna lulusan dari instansi pemerintah dan sektor keamanan siber nasional, (4) perkembangan teknologi dan ancaman siber global yang termuat dalam dokumen Stranas Keamanan Siber (Perpres 47/2023), dan (5) evaluasi implementasi VMTS periode sebelumnya. Proses ini memastikan VMTS yang ditetapkan bukan sekadar dokumen formal, melainkan cerminan nyata dari diferensiasi dan keunikan PS RKS dalam ekosistem pendidikan tinggi nasional.</p>
+<p>VMTS PS RKS ditetapkan secara resmi melalui <strong>Keputusan Direktur Poltek SSN Nomor 06.2 Tahun 2022</strong> tanggal <strong>31 Maret 2022</strong>, ditandatangani oleh Direktur Poltek SSN R. Tjahjo Khurniawan, S.T., <a href="http://M.Si">M.Si</a>., Marsekal Pertama TNI. Dokumen ini berlaku sejak tanggal penetapan dan menjadi acuan bagi seluruh kebijakan, program kerja, dan pengembangan PS RKS.</p>
+<hr>
+<h3 id="c61e--dokumen-formal-penetapan-vmts">C.6.1.E — Dokumen Formal Penetapan VMTS </h3>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Dokumen</th>
+<th>Keterangan</th>
+<th>Link Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Keputusan Direktur Poltek SSN <strong>Nomor 06.2 Tahun 2022</strong> tentang Visi Misi Tujuan dan Strategi Program Studi Rekayasa Keamanan Siber</td>
+<td>Ditetapkan 31 Maret 2022. Memuat Visi, 4 Misi, 5 Tujuan, dan 5 Strategi PS RKS secara formal dan mengikat</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Renstra Poltek SSN Tahun 2025–2029</strong></td>
+<td>Memuat Visi, Misi, dan Tujuan Poltek SSN sebagai institusi induk; menjadi landasan arah pengembangan PS RKS</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Peraturan Badan Siber dan Sandi Negara <strong>Nomor 1 Tahun 2023</strong> tentang Statuta Poltek SSN</td>
+<td>Mengatur landasan hukum kelembagaan, tata kelola, dan penyelenggaraan tridharma Poltek SSN termasuk PS RKS</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Peraturan Presiden <strong>Nomor 47 Tahun 2023</strong> tentang Strategi Nasional Keamanan Siber</td>
+<td>Menjadi landasan kebijakan nasional yang memperkuat relevansi misi PS RKS dalam konteks kepentingan nasional</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>[Dokumen bukti keterlibatan stakeholder dalam perumusan VMTS: notulen rapat, daftar hadir FGD]</td>
+<td>Bukti proses perumusan VMTS yang partisipatif</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>[Dokumen sosialisasi VMTS kepada sivitas akademika: undangan, materi, daftar hadir]</td>
+<td>Bukti penyebarluasan VMTS</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<blockquote>
+<p><strong>Catatan pengisian:</strong> Kolom <code>[Link]</code> pada tabel di atas perlu diisi dengan tautan dokumen yang dapat diakses asesor (Google Drive/sistem repositori Poltek SSN). Nomor SK Renstra Poltek SSN 2025–2029 perlu dikonfirmasi dan dicantumkan untuk melengkapi referensi dokumen formal. Kolom dokumen bukti keterlibatan stakeholder (nomor 5 dan 6) perlu dilengkapi dengan dokumen fisik.</p>
+</blockquote>
+<hr>
+<h3 id="c61f--standar-mutu-dan-indikator-kinerja-terkait-vmts">C.6.1.F — Standar Mutu dan Indikator Kinerja Terkait VMTS </h3>
+<p>Standar mutu dan indikator kinerja untuk Kriteria C.6 Diferensiasi Misi ditetapkan dalam <strong>Keputusan Direktur Poltek SSN tentang Standar Mutu Politeknik Siber dan Sandi Negara Tahun 2025</strong> pada bagian <strong>Standar VMTS</strong>. Terdapat <strong>3 (tiga) indikator</strong> dari <strong>2 (dua) pernyataan standar</strong> yang menjadi acuan pengukuran ketercapaian kriteria ini, dengan penanggung jawab Para Wakil Direktur Poltek SSN.</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Kelompok Kriteria</th>
+<th>Pernyataan Standar Mutu</th>
+<th>Indikator Kinerja</th>
+<th>Target</th>
+<th>Unit Kerja (PJ)</th>
+<th>Rujukan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>VMTS yang menggambarkan ciri khas keilmuan PS dan KKNI Level 6</td>
+<td>Direktur menetapkan VMTS sesuai dengan KKNI level 6</td>
+<td>Persentase VMTS yang menggambarkan ciri khas keilmuan dan sesuai dengan KKNI level 6</td>
+<td><strong>100%</strong></td>
+<td>Para Wadir</td>
+<td>Standar VMTS (334)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>VMTS yang sesuai kebutuhan masyarakat dan DUDIKA</td>
+<td>Direktur memastikan perumusan visi, misi, tujuan, dan strategi sesuai dengan kebutuhan DUDIKA</td>
+<td>Jumlah keterlibatan pemangku kepentingan internal maupun eksternal dalam penyusunan VMTS</td>
+<td><strong>≥ 3</strong></td>
+<td>Para Wadir</td>
+<td>Standar VMTS (331, 332)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>VMTS yang sesuai kebutuhan masyarakat dan DUDIKA</td>
+<td>Direktur memastikan perumusan visi, misi, tujuan, dan strategi sesuai dengan kebutuhan DUDIKA</td>
+<td>Periode evaluasi dan penetapan VMTS</td>
+<td><strong>5 tahun sekali</strong></td>
+<td>Para Wadir</td>
+<td>Standar VMTS (331, 332)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+Ketiga indikator di atas menjadi acuan utama dalam siklus PPEPP Kriteria C.6. Indikator pertama memastikan bahwa seluruh elemen VMTS PS RKS — mulai dari visi yang berorientasi global, misi pendidikan vokasional keamanan siber, hingga tujuan menghasilkan ASN berkompetensi global — mencerminkan ciri khas keilmuan yang khas dan sesuai dengan jenjang Sarjana Terapan (KKNI Level 6). Indikator kedua mengukur inklusivitas proses perumusan VMTS, dengan menetapkan minimal 3 (tiga) pemangku kepentingan internal dan/atau eksternal yang dilibatkan, sehingga VMTS yang ditetapkan benar-benar berbasis kebutuhan DUDIKA. Indikator ketiga memastikan VMTS dievaluasi dan diperbarui secara terencana dengan periode maksimal 5 (lima) tahun sekali, menjamin relevansi VMTS terhadap perkembangan teknologi dan kebutuhan pengguna.</p>
+<hr>
+<h3 id="c62-pelaksanaan-implementasi-vmts-dan-diferensiasi-misi-dalam-program-kerja">C.6.2. [PELAKSANAAN] Implementasi VMTS dan Diferensiasi Misi dalam Program Kerja </h3>
+<p>Program Studi Rekayasa Keamanan Siber telah mengimplementasikan VMTS secara nyata dan terukur melalui program kerja yang mencerminkan ciri khas keilmuan PS, bukan sekadar pernyataan formal. Pelaksanaan ini tercermin dalam tiga dimensi utama: (1) penyelenggaraan pendidikan yang khas dan berorientasi keamanan siber nasional, (2) penelitian dan pengabdian masyarakat yang relevan dengan kebutuhan pengguna strategis, dan (3) pengakuan/rekognisi dari DUDIKA dan pemangku kepentingan nasional.</p>
+<hr>
+<h4 id="c62a--pelaksanaan-vmts-dalam-penyelenggaraan-pendidikan">C.6.2.A — Pelaksanaan VMTS dalam Penyelenggaraan Pendidikan </h4>
+<p>Misi PS RKS pertama dan kedua — menyelenggarakan pendidikan vokasional keamanan siber yang efektif serta menyiapkan calon ASN yang berkompetensi global — diimplementasikan melalui:</p>
+<p><strong>1. Kurikulum Berbasis Keamanan Siber dan Persandian Nasional</strong></p>
+<p>Kurikulum PS RKS dirancang khusus untuk mengintegrasikan kompetensi keamanan siber teknis dengan pemahaman persandian, etika ASN, dan kepentingan keamanan nasional. Kurikulum ini mencakup mata kuliah inti seperti: Kriptografi Terapan, Keamanan Jaringan, Forensik Digital, Uji Penetrasi (Penetration Testing), Keamanan Sistem Operasi, Keamanan IoT, Manajemen Insiden Siber, dan Kebijakan Keamanan Siber. Hal ini membedakan PS RKS dari program studi informatika atau keamanan siber umum yang tidak mengintegrasikan dimensi persandian dan kepentingan nasional secara eksplisit.</p>
+<table>
+<thead>
+<tr>
+<th>Program/Kegiatan</th>
+<th>Wujud Pelaksanaan</th>
+<th>Keterkaitan dengan VMTS</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kurikulum terintegrasi keamanan siber &amp; sandi</td>
+<td>Mata kuliah kriptografi, forensik digital, uji penetrasi, keamanan nasional</td>
+<td>Misi 1: pendidikan vokasional efektif</td>
+<td>[Link SK Kurikulum]</td>
+</tr>
+<tr>
+<td>Laboratorium keamanan siber khusus</td>
+<td>Lab pentest, forensik digital, kriptografi, keamanan jaringan</td>
+<td>Strategi 3: sarana prasarana memadai</td>
+<td>[Link inventaris lab]</td>
+</tr>
+<tr>
+<td>Pembelajaran berbasis project (PjBL)</td>
+<td>Proyek akhir semester dengan skenario keamanan siber nyata</td>
+<td>Misi 2: lulusan berkompetensi global</td>
+<td>[Link RPS/laporan PjBL]</td>
+</tr>
+<tr>
+<td>Program sertifikasi internasional</td>
+<td>Persiapan dan fasilitasi sertifikasi CEH, CompTIA Security+, eJPT bagi mahasiswa</td>
+<td>Visi: berorientasi global</td>
+<td>[Link bukti sertifikasi mahasiswa]</td>
+</tr>
+<tr>
+<td>Pembinaan taruna/karakter ASN</td>
+<td>Program pengasuhan, pembinaan karakter etos sandi, dan bela negara</td>
+<td>Misi 2: bermental tangguh &amp; bermoral tinggi</td>
+<td>[Link program pengasuhan]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>2. Tenaga Pendidik Berkompetensi Keamanan Siber</strong></p>
+<p>Strategi PS RKS kedua — meningkatkan kapasitas dan kualitas tenaga pendidik — diimplementasikan melalui pengembangan kompetensi DTPR secara berkelanjutan. Dosen PS RKS aktif mengikuti pelatihan, sertifikasi profesi internasional, dan seminar di bidang keamanan siber.</p>
+<table>
+<thead>
+<tr>
+<th>Bentuk Pengembangan</th>
+<th>Keterangan</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sertifikasi profesi internasional dosen</td>
+<td>[Jumlah] dosen tersertifikasi CEH / CISSP / OSCP / CHFI (TS)</td>
+<td>[Link sertifikat]</td>
+</tr>
+<tr>
+<td>Studi lanjut dosen</td>
+<td>[Jumlah] dosen menempuh S3 / mengikuti post-doc bidang keamanan siber</td>
+<td>[Link SK tugas belajar]</td>
+</tr>
+<tr>
+<td>Dosen tamu &amp; praktisi</td>
+<td>Menghadirkan praktisi BSSN, BIN, TNI/Polri, dan perusahaan keamanan siber sebagai pengajar tamu</td>
+<td>[Link dokumentasi]</td>
+</tr>
+<tr>
+<td>Keikutsertaan konferensi</td>
+<td>Dosen aktif berpartisipasi dalam seminar/konferensi nasional dan internasional bidang keamanan siber</td>
+<td>[Link daftar konferensi]</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="c62b--pelaksanaan-vmts-dalam-penelitian">C.6.2.B — Pelaksanaan VMTS dalam Penelitian </h4>
+<p>Misi PS RKS ketiga — melaksanakan penelitian di bidang keamanan siber yang berkualitas berorientasi pemenuhan kebutuhan pengguna — diimplementasikan melalui kegiatan penelitian yang tematik, bertahap, dan relevan dengan kepentingan nasional:</p>
+<table>
+<thead>
+<tr>
+<th>Tema Penelitian</th>
+<th>Relevansi dengan VMTS</th>
+<th>Jumlah Judul (TS-2 s.d. TS)</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keamanan jaringan dan sistem</td>
+<td>Mendukung ketahanan infrastruktur digital nasional</td>
+<td>[XX]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Kriptografi terapan</td>
+<td>Bidang persandian sesuai mandat Poltek SSN-BSSN</td>
+<td>[XX]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Forensik digital dan investigasi siber</td>
+<td>Mendukung penegakan hukum dan respons insiden siber</td>
+<td>[XX]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Keamanan IoT dan hardware</td>
+<td>Relevan dengan ancaman siber pada infrastruktur kritis</td>
+<td>[XX]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Deteksi dan respons ancaman siber</td>
+<td>Mendukung BSSN dalam penanganan insiden siber nasional</td>
+<td>[XX]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Keamanan data dan privasi</td>
+<td>Relevan dengan regulasi perlindungan data nasional</td>
+<td>[XX]</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p>Seluruh penelitian dosen melibatkan mahasiswa sebagai anggota tim peneliti, sehingga tujuan PS RKS keempat — menghasilkan produk penelitian berkualitas — dapat dicapai secara berkelanjutan. Data lengkap publikasi dan HKI dapat dilihat pada Tabel LKPS 3.A.1 dan 3.A.2.</p>
+<hr>
+<h4 id="c62c--pelaksanaan-vmts-dalam-pengabdian-kepada-masyarakat">C.6.2.C — Pelaksanaan VMTS dalam Pengabdian kepada Masyarakat </h4>
+<p>Misi PS RKS keempat — pengabdian masyarakat melalui penerapan IPTEK keamanan siber yang bermutu dan bermanfaat — diimplementasikan melalui kegiatan yang menjangkau pemangku kepentingan strategis:</p>
+<table>
+<thead>
+<tr>
+<th>Kegiatan PkM</th>
+<th>Mitra/Sasaran</th>
+<th>Tahun</th>
+<th>Keterkaitan Misi</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pelatihan keamanan siber untuk instansi pemerintah</td>
+<td>[Nama instansi K/L]</td>
+<td>[Tahun]</td>
+<td>Misi 4: PkM bermutu dan bermanfaat</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Sosialisasi kesadaran keamanan siber (cyber hygiene)</td>
+<td>Sekolah menengah / masyarakat umum</td>
+<td>[Tahun]</td>
+<td>Misi 4: kontribusi nyata kepada masyarakat</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Asesmen keamanan sistem informasi</td>
+<td>[Nama instansi]</td>
+<td>[Tahun]</td>
+<td>Diferensiasi: keahlian siber untuk kepentingan publik</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Pelatihan CTF (Capture The Flag)</td>
+<td>Mahasiswa dan pelajar nasional</td>
+<td>[Tahun]</td>
+<td>Strategi 5: kerjasama dan rekognisi nasional</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>[Kegiatan PkM lainnya]</td>
+<td>[Mitra]</td>
+<td>[Tahun]</td>
+<td></td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p>Data lengkap kegiatan PkM tersedia pada Tabel LKPS 4.A.1 dan 4.A.2.</p>
+<hr>
+<h4 id="c62d--rekognisi-dan-pengakuan-dari-dudika-dan-masyarakat">C.6.2.D — Rekognisi dan Pengakuan dari DUDIKA dan Masyarakat </h4>
+<p>Rekognisi dari pengguna lulusan dan pemangku kepentingan strategis merupakan indikator penting ketercapaian diferensiasi misi PS RKS. Rekognisi ini mencakup tingkat lokal, nasional, dan internasional:</p>
+<p><strong>Rekognisi Tingkat Nasional:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Bentuk Rekognisi</th>
+<th>Pemberi Rekognisi</th>
+<th>Tahun</th>
+<th>Keterangan</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[Prestasi mahasiswa tingkat nasional, misal: juara CTF, olimpiade siber]</td>
+<td>[Penyelenggara]</td>
+<td>[Tahun]</td>
+<td>Mengharumkan nama PS RKS di tingkat nasional</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>[Kerja sama strategis dengan instansi pemerintah]</td>
+<td>BSSN / BIN / TNI / Kementerian</td>
+<td>[Tahun]</td>
+<td>Bukti rekognisi penggunaan kompetensi PS RKS</td>
+<td>[Link MoU]</td>
+</tr>
+<tr>
+<td>[Dosen diundang sebagai narasumber/pakar nasional]</td>
+<td>[Instansi/forum]</td>
+<td>[Tahun]</td>
+<td>Rekognisi keahlian dosen PS RKS secara nasional</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>[Penghargaan/award institusi atau PS]</td>
+<td>[Pemberi penghargaan]</td>
+<td>[Tahun]</td>
+<td></td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rekognisi Tingkat Internasional:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Bentuk Rekognisi</th>
+<th>Pemberi Rekognisi</th>
+<th>Tahun</th>
+<th>Keterangan</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[Prestasi mahasiswa tingkat internasional]</td>
+<td>[Penyelenggara]</td>
+<td>[Tahun]</td>
+<td></td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>[Publikasi/kerja sama riset internasional]</td>
+<td>[Jurnal/institusi]</td>
+<td>[Tahun]</td>
+<td></td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>[Keanggotaan/sertifikasi internasional dosen atau PS]</td>
+<td>[Lembaga]</td>
+<td>[Tahun]</td>
+<td></td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p>Data rekognisi dari pengguna lulusan dan DUDIKA selengkapnya tersedia pada Tabel LKPS 2.D.</p>
+<blockquote>
+<p><strong>Catatan pengisian:</strong> Seluruh baris bertanda <code>[...]</code> perlu dilengkapi dengan data aktual dari tim PS RKS. Khususnya rekognisi dan prestasi mahasiswa/dosen merupakan pembeda skor antara Baik (3) dan Sangat Baik (4) pada butir 6.2 — pastikan bukti sahih dan lengkap.</p>
+</blockquote>
+<hr>
+<h3 id="c63-evaluasi-evaluasi-ketercapaian-standar-vmts-dan-diferensiasi-misi">C.6.3. [EVALUASI] Evaluasi Ketercapaian Standar VMTS dan Diferensiasi Misi </h3>
+<p>PS RKS melaksanakan evaluasi ketercapaian standar VMTS secara berkala melalui mekanisme yang terstruktur, menghasilkan data yang dapat digunakan sebagai landasan pengendalian dan peningkatan.</p>
+<hr>
+<h4 id="c63a--mekanisme-dan-jadwal-evaluasi">C.6.3.A — Mekanisme dan Jadwal Evaluasi </h4>
+<table>
+<thead>
+<tr>
+<th>Mekanisme Evaluasi</th>
+<th>Frekuensi</th>
+<th>Pelaksana</th>
+<th>Output</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Survei pemahaman VMTS (dosen, mahasiswa, tendik)</td>
+<td>Setiap tahun akademik</td>
+<td>Unit Penjaminan Mutu / PS RKS</td>
+<td>Laporan hasil survei</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Audit Mutu Internal (AMI) terkait VMTS dan program kerja</td>
+<td>Setiap tahun</td>
+<td>Tim Auditor Internal Poltek SSN</td>
+<td>Laporan AMI + temuan</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Rapat Tinjauan Manajemen (RTM)</td>
+<td>[Frekuensi, misal: 2x/tahun]</td>
+<td>Pimpinan Poltek SSN + Kaprodi</td>
+<td>Notulen RTM + tindak lanjut</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Evaluasi implementasi Renstra Poltek SSN</td>
+<td>Setiap tahun (review tahunan)</td>
+<td>Poltek SSN</td>
+<td>Laporan capaian Renstra</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>Evaluasi tracer study (pemahaman &amp; kepuasan alumni terhadap misi PS)</td>
+<td>Setiap tahun</td>
+<td>Tim PS RKS</td>
+<td>Laporan tracer study</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="c63b--hasil-survei-pemahaman-vmts">C.6.3.B — Hasil Survei Pemahaman VMTS </h4>
+<p>Sesuai ketentuan LAM Infokom Instrumen 2.1, PS RKS telah melaksanakan survei pemahaman VMTS kepada tiga kelompok responden: dosen, mahasiswa, dan tenaga kependidikan (tendik).</p>
+<p><strong>Rekapitulasi Hasil Survei Pemahaman VMTS Tahun Akademik [TS/TS-1]:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspek yang Disurvei</th>
+<th>Responden Dosen (n=[XX])</th>
+<th>Responden Mahasiswa (n=[XX])</th>
+<th>Responden Tendik (n=[XX])</th>
+<th>Rata-rata</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pemahaman Visi PS RKS</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+</tr>
+<tr>
+<td>Pemahaman Misi PS RKS</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+</tr>
+<tr>
+<td>Pemahaman Tujuan PS RKS</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+</tr>
+<tr>
+<td>Pemahaman Strategi PS RKS</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+</tr>
+<tr>
+<td>Persepsi kesesuaian kegiatan PS dengan VMTS</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+</tr>
+<tr>
+<td>Persepsi keunikan/diferensiasi PS RKS</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+<td>[XX]%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi Hasil Survei:</strong><br>
+Hasil survei pemahaman VMTS menunjukkan bahwa [XX]% dosen, [XX]% mahasiswa, dan [XX]% tendik memahami Visi PS RKS dengan baik. Tingkat pemahaman terhadap Misi dan Tujuan PS RKS berada pada kisaran [XX–XX]% di seluruh kelompok responden. Pemahaman terkuat ditemukan pada aspek [sebutkan aspek], sedangkan aspek yang masih perlu ditingkatkan adalah [sebutkan aspek]. Survei juga menunjukkan bahwa [XX]% sivitas akademika menilai kegiatan yang dijalankan PS RKS sudah mencerminkan diferensiasi misi sebagai PS keamanan siber di bawah BSSN. Instrumen survei, metode pengumpulan data, dan laporan lengkap tersedia sebagai bukti pada [Link].</p>
+<hr>
+<h4 id="c63c--evaluasi-ketercapaian-standar-mutu-dan-indikator-vmts">C.6.3.C — Evaluasi Ketercapaian Standar Mutu dan Indikator VMTS </h4>
+<p>Evaluasi ketercapaian standar mutu Kriteria C.6 mengacu langsung pada <strong>3 (tiga) indikator</strong> yang ditetapkan dalam Standar Mutu Poltek SSN Tahun 2025 (Standar VMTS 331, 332, 334).</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Pernyataan Standar Mutu</th>
+<th>Indikator Kinerja</th>
+<th>Target (Standar Mutu)</th>
+<th>Capaian TS</th>
+<th>Status</th>
+<th>Faktor Pendukung / Akar Masalah</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Direktur menetapkan VMTS sesuai dengan KKNI level 6 <em>(Standar VMTS 334)</em></td>
+<td>Persentase VMTS yang menggambarkan ciri khas keilmuan dan sesuai dengan KKNI level 6</td>
+<td><strong>100%</strong></td>
+<td>[XX]%</td>
+<td>[Tercapai/Belum]</td>
+<td>[Uraikan: mis. VMTS sudah ditetapkan formal melalui Kepdir 06.2/2022; seluruh elemen VMTS telah dikaji kesesuaiannya dengan KKNI Level 6]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Direktur memastikan perumusan VMTS sesuai kebutuhan DUDIKA <em>(Standar VMTS 331, 332)</em></td>
+<td>Jumlah keterlibatan pemangku kepentingan internal maupun eksternal dalam penyusunan VMTS</td>
+<td><strong>≥ 3</strong></td>
+<td>[XX] pemangku kepentingan</td>
+<td>[Tercapai/Belum]</td>
+<td>[Uraikan: mis. pihak yang dilibatkan: dosen tetap, pimpinan Poltek SSN, perwakilan BSSN, pengguna lulusan]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Direktur memastikan perumusan VMTS sesuai kebutuhan DUDIKA <em>(Standar VMTS 331, 332)</em></td>
+<td>Periode evaluasi dan penetapan VMTS</td>
+<td><strong>5 tahun sekali</strong></td>
+<td>VMTS ditetapkan [tahun]; evaluasi terakhir [tahun]</td>
+<td>[Tercapai/Belum]</td>
+<td>[Uraikan: jadwal evaluasi berikutnya atau apakah ada pembaruan yang diperlukan lebih awal]</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="c63d--faktor-pendukung-dan-akar-masalah">C.6.3.D — Faktor Pendukung dan Akar Masalah </h4>
+<p><strong>Faktor Pendukung Ketercapaian Standar:</strong></p>
+<ol>
+<li><strong>Dukungan institusional BSSN</strong> — Sebagai instansi pembina, BSSN memberikan dukungan penuh terhadap program-program PS RKS yang relevan dengan keamanan siber nasional, termasuk akses ke sumber daya, pakar, dan jaringan strategis.</li>
+<li><strong>Posisi unik sebagai Politeknik kedinasan</strong> — Status sebagai satu-satunya Politeknik kedinasan bidang siber dan sandi memberi PS RKS akses eksklusif ke pengguna lulusan strategis (ASN BSSN, K/L terkait), meningkatkan relevansi dan rekognisi misi.</li>
+<li><strong>Kompetensi DTPR yang terus berkembang</strong> — Dosen PS RKS aktif mengembangkan keahlian melalui sertifikasi internasional dan penelitian, mendukung pelaksanaan misi pendidikan yang unggul.</li>
+<li><strong>Infrastruktur laboratorium yang memadai</strong> — Laboratorium keamanan siber (pentest, forensik, kriptografi, jaringan) memberikan fasilitas pembelajaran yang sesuai dengan diferensiasi misi PS RKS.</li>
+</ol>
+<p><strong>Akar Masalah / Area yang Belum Optimal:</strong></p>
+<ol>
+<li><strong>Sosialisasi VMTS kepada sivitas akademika masih perlu ditingkatkan</strong> — Tingkat pemahaman VMTS pada segmen [tendik/mahasiswa baru] masih di bawah target, terutama karena belum ada mekanisme sosialisasi terjadwal yang konsisten.</li>
+<li><strong>Rekognisi internasional masih terbatas</strong> — Capaian rekognisi di tingkat internasional masih lebih rendah dibanding target, karena partisipasi mahasiswa dan dosen dalam forum internasional masih perlu didorong lebih aktif.</li>
+<li><strong>[Akar masalah lain berdasarkan data aktual AMI/RTM]</strong> — [Uraian]</li>
+</ol>
+<hr>
+<h3 id="c64-pengendalian-tindak-lanjut-atas-hasil-evaluasi">C.6.4. [PENGENDALIAN] Tindak Lanjut atas Hasil Evaluasi </h3>
+<p>Berdasarkan hasil evaluasi ketercapaian standar VMTS sebagaimana diuraikan pada C.6.3, PS RKS bersama pimpinan Poltek SSN menetapkan tindak lanjut yang terstruktur melalui mekanisme Rapat Tinjauan Manajemen (RTM) dan siklus SPMI:</p>
+<hr>
+<h4 id="c64a--matriks-tindak-lanjut">C.6.4.A — Matriks Tindak Lanjut </h4>
+<p>Tindak lanjut disusun berdasarkan indikator Standar Mutu VMTS yang belum tercapai dan temuan AMI/RTM, diorganisir per indikator standar mutu yang relevan:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Indikator Standar Mutu (Ref.)</th>
+<th>Temuan/Kondisi</th>
+<th>Tindak Lanjut yang Ditetapkan</th>
+<th>Penanggung Jawab</th>
+<th>Target Waktu</th>
+<th>Status</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Persentase VMTS yang menggambarkan ciri khas keilmuan dan sesuai dengan KKNI level 6 — Target 100% <em>(Standar VMTS 334)</em></td>
+<td>[Isi kondisi: mis. sudah 100% atau ada elemen VMTS yang perlu dikaji ulang kesesuaiannya dengan deskriptor KKNI Level 6]</td>
+<td>(a) Melaksanakan kajian pemetaan VMTS terhadap deskriptor KKNI Level 6; (b) Mendokumentasikan bukti kesesuaian setiap elemen VMTS dengan KKNI Level 6 dalam dokumen tertulis</td>
+<td>Para Wadir, Kaprodi RKS</td>
+<td>[Semester/Tahun]</td>
+<td>[Selesai/Dalam proses]</td>
+<td>[Link notulen RTM / bukti kajian]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Jumlah keterlibatan pemangku kepentingan internal maupun eksternal dalam penyusunan VMTS — Target ≥ 3 <em>(Standar VMTS 331, 332)</em></td>
+<td>[Isi kondisi: mis. pada penyusunan VMTS terakhir hanya melibatkan X pihak, di bawah/sesuai target]</td>
+<td>(a) Mendokumentasikan seluruh pihak yang terlibat dalam perumusan VMTS secara terstruktur; (b) Memperluas keterlibatan stakeholder eksternal pada evaluasi VMTS berikutnya (pengguna lulusan, alumni, mitra industri)</td>
+<td>Para Wadir, Kaprodi RKS</td>
+<td>[Semester/Tahun]</td>
+<td>[Selesai/Dalam proses]</td>
+<td>[Link daftar hadir FGD / notulen]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Periode evaluasi dan penetapan VMTS — Target 5 tahun sekali <em>(Standar VMTS 331, 332)</em></td>
+<td>VMTS PS RKS ditetapkan melalui Kepdir No. 06.2 Tahun 2022; perlu memastikan evaluasi terjadwal sebelum 2027 atau lebih awal jika ada perubahan signifikan kebijakan BSSN/Renstra</td>
+<td>(a) Menetapkan jadwal evaluasi VMTS berikutnya; (b) Menyusun tim dan mekanisme evaluasi; (c) Mempertimbangkan penyesuaian VMTS terhadap Renstra Poltek SSN 2025–2029 yang telah ditetapkan</td>
+<td>Para Wadir, Kaprodi RKS</td>
+<td>Sebelum [Tahun]</td>
+<td>[Selesai/Dalam proses]</td>
+<td>[Link SK/notulen rapat evaluasi VMTS]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pemahaman VMTS di kalangan sivitas akademika <em>(tambahan dari survei)</em></td>
+<td>Tingkat pemahaman VMTS pada segmen [tendik/mahasiswa baru] masih perlu ditingkatkan</td>
+<td>(a) Menyusun modul sosialisasi VMTS terstandar; (b) Memasukkan sesi VMTS dalam OPTAR; (c) Menampilkan VMTS secara visual di ruang publik kampus</td>
+<td>Kaprodi RKS, Subbag Kemahasiswaan</td>
+<td>[Semester/Tahun]</td>
+<td>[Selesai/Dalam proses]</td>
+<td>[Link notulen RTM]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Rekognisi internasional <em>(tambahan dari evaluasi pelaksanaan)</em></td>
+<td>Capaian rekognisi di tingkat internasional masih perlu ditingkatkan</td>
+<td>(a) Mendorong partisipasi dosen dan mahasiswa dalam forum internasional; (b) Menjalin kerja sama riset dengan PT luar negeri; (c) Mendaftarkan mahasiswa pada kompetisi CTF internasional</td>
+<td>Kaprodi RKS, Wakil Direktur Akademik</td>
+<td>[Semester/Tahun]</td>
+<td>[Selesai/Dalam proses]</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="c64b--revisi-dokumen-dan-kebijakan">C.6.4.B — Revisi Dokumen dan Kebijakan </h4>
+<p>Berdasarkan evaluasi dan hasil RTM, PS RKS juga melakukan revisi terhadap dokumen dan kebijakan yang berkaitan dengan VMTS:</p>
+<table>
+<thead>
+<tr>
+<th>Dokumen/Kebijakan</th>
+<th>Bentuk Revisi</th>
+<th>Alasan Revisi</th>
+<th>Tanggal Efektif</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[Dokumen sosialisasi VMTS]</td>
+<td>Pembaruan materi sosialisasi sesuai perkembangan kebijakan BSSN dan Renstra 2025–2029</td>
+<td>Dokumen lama tidak mencerminkan Visi Poltek SSN terbaru dari Renstra 2025–2029</td>
+<td>[Tanggal]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>[Rencana program kerja PS RKS]</td>
+<td>Penambahan program kerja yang secara eksplisit mencerminkan diferensiasi misi</td>
+<td>Hasil evaluasi menunjukkan belum semua program kerja terhubung eksplisit dengan VMTS</td>
+<td>[Tanggal]</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>[Dokumen lain]</td>
+<td>[Revisi]</td>
+<td>[Alasan]</td>
+<td>[Tanggal]</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Narasi:</strong><br>
+Mekanisme pengendalian dilaksanakan melalui siklus SPMI yang terintegasi. Setiap temuan dari hasil AMI dan evaluasi survei VMTS dilaporkan kepada Kaprodi dan dibahas dalam RTM Poltek SSN. Rekomendasi perbaikan kemudian ditetapkan menjadi program kerja pada periode berikutnya dengan penanggung jawab yang jelas. Pelaksanaan tindak lanjut dimonitor melalui laporan berkala kepada pimpinan Poltek SSN dan dievaluasi kembali pada siklus berikutnya. Dokumentasi seluruh proses pengendalian tersedia dalam laporan RTM yang dapat diverifikasi asesor.</p>
+<hr>
+<h3 id="c65-peningkatan-rencana-peningkatan-diferensiasi-misi-dan-rekognisi-ps-rks">C.6.5. [PENINGKATAN] Rencana Peningkatan Diferensiasi Misi dan Rekognisi PS RKS </h3>
+<p>Berdasarkan hasil evaluasi dan pengendalian (C.6.3–C.6.4), PS RKS menetapkan program peningkatan yang bersifat strategis, terukur, dan selaras dengan Renstra Poltek SSN 2025–2029. Program peningkatan diarahkan pada tiga dimensi: (1) penguatan diferensiasi keilmuan, (2) peningkatan rekognisi nasional dan internasional, dan (3) peningkatan pemahaman VMTS di seluruh jenjang sivitas akademika.</p>
+<hr>
+<h4 id="c65a--rencana-peningkatan-diferensiasi-keilmuan">C.6.5.A — Rencana Peningkatan Diferensiasi Keilmuan </h4>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Program Peningkatan</th>
+<th>Target Capaian</th>
+<th>Indikator Keberhasilan</th>
+<th>Waktu Pelaksanaan</th>
+<th>PJ</th>
+<th>Sumber Pendanaan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Pengembangan kurikulum adaptif: penambahan mata kuliah atau konten yang mengikuti perkembangan ancaman siber terkini (AI security, cloud security, OT/ICS security)</td>
+<td>Kurikulum diperbarui ≥ 1x per 2 tahun</td>
+<td>Ada SK kurikulum baru yang valid</td>
+<td>2026–2027</td>
+<td>Kaprodi RKS</td>
+<td>APBN Poltek SSN</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Pembangunan/peningkatan laboratorium keamanan siber khusus (SOC Lab, Malware Analysis Lab)</td>
+<td>Minimal 1 lab baru/ditingkatkan per periode Renstra</td>
+<td>Ada fasilitas lab baru beroperasi dengan SOP</td>
+<td>2026–2029</td>
+<td>Wakil Direktur Bidang Akademik</td>
+<td>APBN/APBN-P</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Pengembangan program kelas khusus bersama BSSN atau lembaga keamanan nasional (guest lecture series, joint training)</td>
+<td>≥ 4 kegiatan/tahun</td>
+<td>Dokumentasi kegiatan + sertifikat</td>
+<td>Berkelanjutan</td>
+<td>Kaprodi RKS</td>
+<td>Kerjasama/APBN</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pengembangan roadmap penelitian PS RKS berbasis kepentingan nasional</td>
+<td>Roadmap ditetapkan dan disosialisasikan</td>
+<td>SK roadmap penelitian + laporan evaluasi capaian</td>
+<td>2026</td>
+<td>Kaprodi RKS + LP3M</td>
+<td>APBN</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="c65b--rencana-peningkatan-rekognisi-nasional-dan-internasional">C.6.5.B — Rencana Peningkatan Rekognisi Nasional dan Internasional </h4>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Program Peningkatan</th>
+<th>Target Capaian</th>
+<th>Indikator Keberhasilan</th>
+<th>Waktu</th>
+<th>PJ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Mendorong partisipasi aktif mahasiswa dan dosen dalam kompetisi CTF tingkat nasional dan internasional</td>
+<td>≥ [XX] tim/individu per tahun di tingkat nasional; ≥ [XX] di tingkat internasional</td>
+<td>Sertifikat/bukti keikutsertaan dan capaian prestasi</td>
+<td>Berkelanjutan</td>
+<td>Kaprodi + Kemahasiswaan</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Membangun dan memperluas kerja sama (MoU) dengan instansi strategis pemerintah dan industri keamanan siber</td>
+<td>≥ [XX] MoU aktif baru per tahun Renstra</td>
+<td>Dokumen MoU aktif + laporan pelaksanaan</td>
+<td>2026–2029</td>
+<td>Wakil Direktur Bidang Akademik</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Mendorong publikasi dosen di jurnal internasional terindeks (Scopus/WoS) bidang keamanan siber</td>
+<td>≥ [XX] artikel/tahun di Scopus atau WoS</td>
+<td>Data SINTA + bukti publikasi</td>
+<td>2026–2029</td>
+<td>LP3M Poltek SSN</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Mendaftarkan PS RKS dalam forum/asosiasi keamanan siber internasional</td>
+<td>Keanggotaan aktif di ≥ 1 asosiasi internasional</td>
+<td>Bukti keanggotaan + partisipasi</td>
+<td>2027</td>
+<td>Kaprodi RKS</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Peningkatan kerjasama riset internasional dengan perguruan tinggi luar negeri</td>
+<td>≥ [XX] joint research per periode Renstra</td>
+<td>Dokumen perjanjian kerjasama + bukti hasil riset</td>
+<td>2027–2029</td>
+<td>Kaprodi + LP3M</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="c65c--rencana-peningkatan-ketercapaian-standar-mutu-vmts">C.6.5.C — Rencana Peningkatan Ketercapaian Standar Mutu VMTS </h4>
+<p>Program peningkatan berikut secara spesifik diarahkan untuk memastikan ketercapaian seluruh indikator Standar Mutu VMTS (Standar VMTS 331, 332, 334) pada periode berikutnya:</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Indikator Standar Mutu yang Ditargetkan</th>
+<th>Program Peningkatan</th>
+<th>Target Capaian</th>
+<th>Waktu</th>
+<th>PJ</th>
+<th>Bukti Keberhasilan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Persentase VMTS sesuai KKNI Level 6 — Target 100% <em>(Standar VMTS 334)</em></td>
+<td>Pemetaan eksplisit setiap elemen VMTS terhadap deskriptor KKNI Level 6 D4/Sarjana Terapan; dokumentasi pemetaan dipublikasikan</td>
+<td>100% elemen VMTS terpetakan</td>
+<td>2026</td>
+<td>Kaprodi RKS</td>
+<td>Dokumen pemetaan VMTS-KKNI</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Jumlah keterlibatan stakeholder dalam penyusunan VMTS — Target ≥ 3 <em>(Standar VMTS 331, 332)</em></td>
+<td>Pada evaluasi VMTS berikutnya, pastikan pelibatan minimal: (a) pimpinan Poltek SSN, (b) dosen PS RKS, (c) perwakilan BSSN selaku instansi pengguna, (d) pengguna lulusan/alumni, (e) mitra industri</td>
+<td>≥ 3 pemangku kepentingan terlibat dan terdokumentasi</td>
+<td>Saat evaluasi VMTS</td>
+<td>Para Wadir, Kaprodi</td>
+<td>Daftar hadir + notulen FGD stakeholder</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Periode evaluasi dan penetapan VMTS — Target 5 tahun sekali <em>(Standar VMTS 331, 332)</em></td>
+<td>Menetapkan dan menjadwalkan evaluasi VMTS PS RKS secara formal; menyesuaikan VMTS dengan Renstra Poltek SSN 2025–2029 yang telah ditetapkan</td>
+<td>Evaluasi VMTS terjadwal; SK revisi VMTS diterbitkan jika diperlukan</td>
+<td>Sebelum 2027</td>
+<td>Para Wadir</td>
+<td>SK revisi VMTS / dokumen evaluasi</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pemahaman VMTS sivitas akademika <em>(mendukung seluruh indikator)</em></td>
+<td>(a) Menyusun modul sosialisasi VMTS terstandar; (b) Sesi VMTS dalam OPTAR; (c) Visualisasi VMTS di ruang publik kampus; (d) Survei pemahaman VMTS rutin setiap tahun</td>
+<td>Pemahaman ≥ [XX]% pada seluruh kelompok responden</td>
+<td>Setiap tahun akademik</td>
+<td>Kaprodi RKS, Kemahasiswaan</td>
+<td>Laporan survei VMTS tahunan</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="c65d--penguatan-branding-ps-rks-sebagai-pusat-unggulan-keamanan-siber-nasional">C.6.5.D — Penguatan Branding PS RKS sebagai Pusat Unggulan Keamanan Siber Nasional </h4>
+<p>Sebagai program studi dengan diferensiasi misi yang unik, PS RKS merencanakan penguatan branding secara sistematis agar posisi PS RKS sebagai <em>pusat unggulan</em> (center of excellence) pengembangan SDM keamanan siber nasional semakin diakui:</p>
+<ol>
+<li><strong>Pengembangan konten publikasi dan media</strong> — Menyusun dan mempublikasikan konten edukatif keamanan siber melalui kanal resmi Poltek SSN (website, media sosial, jurnal populer) yang mencerminkan keahlian dan diferensiasi PS RKS.</li>
+<li><strong>Penyelenggaraan event keamanan siber bertaraf nasional</strong> — Menggelar kompetisi CTF, seminar keamanan siber, atau bootcamp yang mengundang peserta dari seluruh Indonesia, memperkuat positioning PS RKS sebagai pusat komunitas keamanan siber.</li>
+<li><strong>Kemitraan strategis dengan ekosistem keamanan siber</strong> — Membangun kemitraan jangka panjang dengan BSSN, vendor keamanan siber global (Palo Alto Networks, Fortinet, IBM Security), lembaga sertifikasi internasional (EC-Council, CompTIA, ISC²), dan komunitas siber nasional.</li>
+<li><strong>Penguatan Alumni Network</strong> — Membangun jaringan alumni PS RKS yang aktif di instansi-instansi strategis sebagai duta dan sumber umpan balik bagi pengembangan PS RKS ke depan.</li>
+</ol>
+<hr>
+<blockquote>
+<p><strong>Catatan pengisian:</strong> Seluruh data kuantitatif yang ditandai <code>[XX]</code> perlu diisi oleh tim PS RKS berdasarkan data aktual. Dokumen bukti survei VMTS (C.6.3.B) merupakan <strong>kewajiban</strong> yang secara eksplisit disebutkan dalam instrumen LAM Infokom 2.1 — pastikan survei dilaksanakan dan hasilnya terdokumentasi sebelum pengajuan. Matriks tindak lanjut (C.6.4.A) harus konsisten dengan notulen RTM yang dapat diverifikasi asesor.</p>
+<p><strong>Referensi standar mutu:</strong> Seluruh standar dan indikator C.6 bersumber dari <strong>Kepdir Standar Mutu Poltek SSN Tahun 2025, Bagian Standar VMTS (Pasal 331, 332, 334)</strong>. Rujukan ini harus dikutip secara eksplisit dalam narasi LED akhir.</p>
+</blockquote>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
