@@ -162,20 +162,40 @@ VMTS PS RKS ditetapkan dengan memastikan keselarasan tiga lapis dari tingkat nas
 
 Visi BSSN: *"BSSN menjadi PERISAI bagi Keamanan Siber dan Sandi Negara dalam Rangka Mewujudkan Indonesia Maju Menuju Indonesia Emas 2045."* Misi BSSN yang relevan: (1) Mengoptimalkan ketahanan dan keamanan siber dan sandi nasional; (2) Meningkatkan dampak langsung reformasi birokrasi BSSN bagi masyarakat.
 
-**Visi dan Misi Poltek SSN (Renstra Poltek SSN 2025–2029):**
+**Visi, Misi, dan Tujuan Poltek SSN (Renstra Poltek SSN 2025–2029):**
 
-Visi Poltek SSN: *"Menjadi politeknik unggulan di bidang keamanan siber dan sandi yang berdaya saing global, serta berdampak nyata bagi pembangunan bangsa melalui pendidikan, riset terapan, dan tata kelola yang baik serta transformasi budaya yang berkelanjutan."* Misi Poltek SSN mencakup: (1) penyelenggaraan pembelajaran berkualitas tinggi membentuk aparatur profesional bidang keamanan siber dan sandi; (2) penelitian yang berdampak nyata; (3) pengabdian masyarakat mendorong budaya keamanan siber; dan (4) tata kelola yang membentuk SDM bermental tangguh.
+**Visi Poltek SSN:**
+> *"Menjadi politeknik unggulan di bidang keamanan siber dan sandi yang berdaya saing global, serta berdampak nyata bagi pembangunan bangsa melalui pendidikan, riset terapan, dan tata kelola yang baik serta transformasi budaya yang berkelanjutan."*
+
+**Misi Poltek SSN** (mendukung Misi 1 BSSN):
+1. Menyelenggarakan program pembelajaran berkualitas tinggi dan berdaya saing global dalam membentuk aparatur negara yang profesional dan responsif di bidang keamanan siber dan sandi;
+2. Menyelenggarakan penelitian yang berkualitas tinggi dan berdampak nyata bagi pengembangan dan penerapan pengetahuan dan keahlian di bidang keamanan siber dan sandi;
+3. Menyelenggarakan pengabdian kepada masyarakat berkualitas tinggi melalui riset terapan yang dapat mendorong transformasi budaya keamanan siber dan sandi pada masyarakat;
+4. Menyelenggarakan tata kelola yang baik dalam membentuk SDM siber dan sandi yang bermental tangguh dan bermoral tinggi.
+
+**Tujuan Poltek SSN** (4 tujuan resmi dari Renstra 2025–2029):
+
+| No | Tujuan | Indikator Tujuan | Target 2029 |
+|----|--------|-----------------|-------------|
+| 1 | Menghasilkan lulusan yang unggul dan berperan aktif dalam pengembangan digitalisasi sistem pemerintahan yang aman dan dapat diandalkan | Persentase lulusan SDM siber dan sandi dengan nilai pendidikan minimum "Baik" | **≥ 83%** |
+| 2 | Meningkatnya rekognisi nasional terhadap luaran penelitian dan PkM di bidang keamanan siber dan sandi | Acceptance rate publikasi terakreditasi nasional/internasional; persentase PkM yang termanfaatkan masyarakat | **77% & 87%** |
+| 3 | Meningkatnya produk penelitian terapan dan PkM yang digunakan oleh pemangku kepentingan | Tingkat pemanfaatan hasil penelitian dan PkM oleh pengguna/pemangku kepentingan | **77% & 87%** |
+| 4 | **Mewujudkan tata kelola perguruan tinggi yang kredibel dan akuntabel untuk mendukung tercapainya nilai akreditasi unggul** | Persentase ketercapaian standar mutu pendidikan | **≥ 83%** |
+
+Tujuan ke-4 Poltek SSN secara eksplisit menargetkan **nilai akreditasi unggul** sebagai output tata kelola — menjadi landasan institusional yang langsung relevan dengan pengajuan akreditasi PS RKS kepada LAM Infokom. Keselarasan VMTS PS RKS dengan tujuan ini berarti setiap elemen VMTS yang ditetapkan PS RKS berkontribusi langsung pada pencapaian akreditasi unggul yang diamanatkan Renstra institusi.
 
 Keselarasan antara ketiga jenjang tersebut dirangkum dalam matriks berikut:
 
 | Dimensi | BSSN | Poltek SSN | PS RKS |
 |---------|------|------------|--------|
 | **Visi** | PERISAI keamanan siber & sandi menuju Indonesia Emas 2045 | Politeknik unggulan keamanan siber & sandi berdaya saing global | Pencetak sarjana terapan keamanan siber unggul berjiwa Pancasila, berkontribusi pada keamanan nasional |
-| **Pendidikan** | Optimasi SDM keamanan siber nasional | Pembelajaran berkualitas membentuk aparatur profesional | Pendidikan vokasional efektif; menyiapkan ASN berkompetensi global |
-| **Penelitian** | Penguatan kriptografi & ketahanan siber | Penelitian berdampak nyata pada pengetahuan keamanan siber | Penelitian berorientasi kebutuhan pengguna |
-| **Pengabdian** | Transformasi ekosistem digital yang aman | Riset terapan mendorong budaya keamanan siber di masyarakat | IPTEK keamanan siber yang bermutu dan bermanfaat |
-| **Tata Kelola** | Reformasi birokrasi berdampak | SDM bermental tangguh & bermoral tinggi | Penjaminan mutu menuju standar internasional |
-| **Orientasi Lulusan** | Aparatur siber & sandi nasional | Lulusan unggul aktif dalam digitalisasi pemerintahan yang aman | ASN berkompetensi keamanan siber & sandi, berdaya saing global |
+| **Misi Pendidikan** | Optimasi SDM keamanan siber nasional (Misi 1) | Pembelajaran berkualitas tinggi membentuk aparatur negara profesional & responsif (Misi 1) | Pendidikan vokasional keamanan siber efektif; menyiapkan ASN berkompetensi global (Misi 1 & 2) |
+| **Misi Penelitian** | Penguatan kriptografi & ketahanan siber (Misi 1) | Penelitian berkualitas tinggi berdampak nyata pada pengetahuan keamanan siber (Misi 2) | Penelitian keamanan siber berorientasi kebutuhan pengguna (Misi 3) |
+| **Misi Pengabdian** | Transformasi ekosistem digital yang aman (Misi 1) | PkM mendorong transformasi budaya keamanan siber di masyarakat (Misi 3) | PkM melalui IPTEK keamanan siber yang bermutu dan bermanfaat (Misi 4) |
+| **Misi Tata Kelola** | Reformasi birokrasi berdampak (Misi 2) | Tata kelola membentuk SDM bermental tangguh & bermoral tinggi (Misi 4) | Penjaminan mutu menuju standar internasional (Strategi 1) |
+| **Tujuan Lulusan** | Meningkatnya nilai keamanan siber & sandi Indonesia (Tujuan 1 BSSN) | Lulusan unggul aktif dalam digitalisasi pemerintahan yang aman — target ≥83% bernilai "Baik" (Tujuan 1) | ASN berkompetensi keamanan siber & sandi, berdaya saing global (Tujuan 1–3 PS RKS) |
+| **Tujuan Riset & PkM** | Optimasi ketahanan siber nasional (Misi 1 BSSN) | Rekognisi nasional & pemanfaatan produk penelitian/PkM — target 77% & 87% (Tujuan 2 & 3) | Penelitian & PkM keamanan siber berorientasi kebutuhan pengguna (Misi 3 & 4 PS RKS) |
+| **Tujuan Tata Kelola** | Reformasi birokrasi berdampak (Misi 2 BSSN) | Tata kelola kredibel dan akuntabel untuk **akreditasi unggul** — target ≥83% standar mutu (Tujuan 4) | Penjaminan mutu sistematis menuju standar internasional (Strategi 1 PS RKS) |
 
 ##### Tracer Study sebagai Bukti Relevansi VMTS terhadap Kebutuhan Pengguna
 
