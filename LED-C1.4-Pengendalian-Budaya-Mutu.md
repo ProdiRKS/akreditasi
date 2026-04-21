@@ -39,23 +39,17 @@ Tindak lanjut yang ditetapkan:
 1. **Dokumentasi proses pelaporan** — Subbag AAK membuat rekap dokumentasi pelaporan PDDikti setiap semester, berupa: tangkapan layar konfirmasi unggahan, berita acara pelaporan, dan rekap data yang dilaporkan.
 2. **Penyusunan SOP Pelaporan PDDikti** — SOP khusus pelaporan PDDikti disusun dan disahkan sebagai bagian dari upaya pemenuhan target SOP lintas aspek (terkait tindak lanjut KTS/Mayor di atas).
 
-### Pengendalian atas Indikator yang Telah Tercapai — Anggaran
-
-Realisasi anggaran tahunan telah mencapai target ≥95%. Mekanisme pengendalian diarahkan pada **pemeliharaan dan konsistensi capaian**, bukan koreksi:
-
-1. Subbag Renkeu mempertahankan mekanisme perencanaan RKA berbasis program tridharma yang telah terbukti efektif.
-2. Laporan realisasi anggaran disampaikan secara berkala kepada Direktur sebagai bagian dari laporan kinerja tahunan.
-
 ---
 
 ### Tabel Pengendalian — Bagian A
 
-| No | Indikator | Hasil Evaluasi | Kategori | Akar Masalah | Tindak Lanjut | PJ | Status TL |
-|----|-----------|----------------|----------|-------------|---------------|----|-----------|
-| 1 | Persentase SOP pada bidang Akademik, Keuangan, SDM, dan aspek lain yang tersusun dan diterapkan (Target ≥70%) | Tidak Tercapai | KTS / Mayor | Kegiatan berjalan tanpa SOP; SOP belum tersusun lengkap | Inventarisasi SOP yang belum ada → susun → sahkan → unggah ke probis.poltekssn.ac.id | Subbag OSDM TU | Dalam proses |
-| 2 | Persentase realisasi kesesuaian penyelenggaraan pendidikan berdasarkan kalender akademik (Target 30%) | Tidak Tercapai | KTS / Minor | Banyak kegiatan insidentil di luar kalender; tidak ada perhitungan formal | Hitung realisasi kesesuaian TS → dokumentasikan kegiatan insidentil → revisi mekanisme kalender | Subbag AAK | Dalam proses |
-| 3 | Persentase data perkuliahan dilaporkan ke PDDikti secara lengkap dan tepat waktu (Target 100%) | Tidak Tercapai | Observasi | Proses pelaporan sudah berjalan tetapi belum terdokumentasi | Buat rekap dokumentasi pelaporan PDDikti per semester; susun SOP Pelaporan PDDikti | Subbag AAK | Dalam proses |
-| 4 | Persentase realisasi anggaran tahunan (Target 95%) | Tercapai | — | — | Pertahankan mekanisme RKA; laporkan realisasi berkala kepada Direktur | Subbag Renkeu | Terpelihara |
+*(Hanya indikator dengan hasil evaluasi Tidak Tercapai)*
+
+| No | Indikator | Target | Tindak Lanjut |
+|----|-----------|--------|---------------|
+| 1 | Persentase SOP pada bidang Akademik, Keuangan, SDM, dan aspek lain yang tersusun dan diterapkan | ≥ 70% | Inventarisasi SOP yang belum tersedia berdasarkan Peta Proses Bisnis (Kepdir No. 18 Tahun 2021) → susun SOP prioritas → sahkan melalui Kepdir/Kepala Bagian → unggah ke probis.poltekssn.ac.id; GKM memantau progres bulanan hingga target tercapai |
+| 2 | Persentase realisasi kesesuaian penyelenggaraan pendidikan berdasarkan kalender akademik setiap tahun ajaran | 30% | Subbag AAK menghitung secara formal persentase kesesuaian kegiatan akademik (awal perkuliahan, UTS, UAS, yudisium) terhadap kalender akademik TS → dokumentasikan kegiatan insidentil beserta justifikasinya → kaji revisi mekanisme penyusunan kalender akademik |
+| 3 | Persentase data perkuliahan dilaporkan ke PDDikti secara lengkap dan tepat waktu pada setiap semester berjalan | 100% | Subbag AAK membuat rekap dokumentasi pelaporan PDDikti per semester (tangkapan layar konfirmasi unggahan, berita acara, rekap data) → susun dan sahkan SOP Pelaporan PDDikti sebagai bagian dari pemenuhan target SOP lintas aspek |
 
 ---
 
