@@ -16,11 +16,17 @@ Bagian ini berisi daftar dan penjelasan dokumen kebijakan, standar, dan indikato
 
 Kebijakan yang menjadi landasan penetapan VMTS PS RKS yang mencerminkan ciri khas keilmuan keamanan siber dan kesesuaiannya dengan jenjang Sarjana Terapan (KKNI Level 6) adalah sebagai berikut:
 
-1. Peraturan Presiden Nomor 47 Tahun 2023 tentang Strategi Nasional Keamanan Siber dan Sandi Negara — menegaskan urgensi pengembangan SDM keamanan siber nasional sebagai kebutuhan strategis yang menjadi landasan ciri khas keilmuan PS RKS;
-2. Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 39 Tahun 2025 tentang Standar Nasional Pendidikan Tinggi — memuat kerangka KKNI Level 6 sebagai acuan kompetensi lulusan Sarjana Terapan yang harus tercermin dalam VMTS;
-3. Peraturan Badan Siber dan Sandi Negara Nomor 1 Tahun 2023 tentang Statuta Politeknik Siber dan Sandi Negara — menetapkan mandat kelembagaan Poltek SSN sebagai perguruan tinggi kedinasan bidang keamanan siber dan sandi yang menjadi dasar ciri khas PS RKS;
-4. Keputusan Direktur Poltek SSN Nomor 06.2 Tahun 2022 tentang Visi, Misi, Tujuan, dan Strategi Program Studi Rekayasa Keamanan Siber — dokumen penetapan resmi VMTS PS RKS yang ditetapkan pada 31 Maret 2022, memuat Visi, 4 Misi, 5 Tujuan, dan 5 Strategi;
-5. Keputusan Direktur Poltek SSN Nomor [No SK] Tahun 2025 tentang Standar Mutu Internal Politeknik Siber dan Sandi Negara (Standar VMTS Pasal 334) — menetapkan indikator persentase VMTS yang menggambarkan ciri khas keilmuan dan sesuai KKNI Level 6 dengan target 100%.
+1. Peraturan Presiden Republik Indonesia Nomor 8 Tahun 2012 tentang Kerangka Kualifikasi Nasional Indonesia (KKNI) — menetapkan deskriptor kompetensi KKNI Level 6 sebagai acuan capaian pembelajaran lulusan Sarjana Terapan;
+2. Peraturan Presiden Nomor 47 Tahun 2023 tentang Strategi Nasional Keamanan Siber dan Sandi Negara — menegaskan urgensi pengembangan SDM keamanan siber nasional sebagai kebutuhan strategis yang menjadi landasan ciri khas keilmuan PS RKS;
+3. Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 39 Tahun 2025 tentang Standar Nasional Pendidikan Tinggi — memuat kerangka KKNI Level 6 sebagai acuan kompetensi lulusan Sarjana Terapan yang harus tercermin dalam VMTS;
+4. Peraturan Badan Siber dan Sandi Negara Nomor 1 Tahun 2023 tentang Statuta Politeknik Siber dan Sandi Negara — menetapkan mandat kelembagaan Poltek SSN sebagai perguruan tinggi kedinasan bidang keamanan siber dan sandi yang menjadi dasar ciri khas PS RKS;
+5. Standar Kompetensi Kerja Nasional Indonesia (SKKNI) bidang keamanan siber yang menjadi rujukan kompetensi khas PS RKS:
+   - SKKNI Nomor 391 Tahun 2020 — bidang Security Operation Center (SOC);
+   - SKKNI Nomor 23 Tahun 2022 — bidang Uji Keamanan Siber;
+   - SKKNI Nomor 24 Tahun 2022 — bidang Audit Keamanan Informasi;
+   - SKKNI Nomor 4 Tahun 2023 — bidang Kriptografi;
+6. Keputusan Direktur Poltek SSN Nomor 06.2 Tahun 2022 tentang Visi, Misi, Tujuan, dan Strategi Program Studi Rekayasa Keamanan Siber — dokumen penetapan resmi VMTS PS RKS yang ditetapkan pada 31 Maret 2022, memuat Visi, 4 Misi, 5 Tujuan, dan 5 Strategi;
+7. Keputusan Direktur Poltek SSN Nomor [No SK] Tahun 2025 tentang Standar Mutu Internal Politeknik Siber dan Sandi Negara (Standar VMTS Pasal 334) — menetapkan indikator persentase VMTS yang menggambarkan ciri khas keilmuan dan sesuai KKNI Level 6 dengan target 100%.
    > **[Catatan]** Isikan nomor SK resmi Standar Mutu 2025 setelah dikonfirmasi ke Pus Jamut.
 
 ---
@@ -56,9 +62,53 @@ Visi ini secara eksplisit memuat tiga ciri khas yang membedakan PS RKS dari prog
 4. Meningkatkan kualitas dan kuantitas publikasi hasil penelitian dosen dan mahasiswa serta meningkatkan pengelolaan penyelenggaraan penelitian dan pengabdian pada masyarakat berbasis kebermanfaatan bagi pengguna di bidang keamanan siber dan sandi, khususnya yang berdampak terhadap keamanan nasional;
 5. Meningkatkan kerja sama antar institusi, baik dari unsur pemerintah, dunia usaha, dunia industri maupun perguruan tinggi lain baik skala nasional maupun internasional.
 
-##### Kesesuaian VMTS dengan KKNI Level 6
+##### Profil Lulusan sebagai Manifestasi Ciri Khas Keilmuan
 
-Seluruh elemen VMTS PS RKS ditetapkan dengan mempertimbangkan deskriptor KKNI Level 6 (Sarjana Terapan) yang mencakup kemampuan menerapkan bidang keahlian dan memanfaatkan ilmu pengetahuan, teknologi, dan/atau seni pada bidangnya dalam penyelesaian masalah serta mampu beradaptasi terhadap situasi yang dihadapi. Kesesuaian ini terwujud dalam: (1) Visi yang menegaskan orientasi pada sarjana terapan yang mampu bersaing global; (2) Misi yang menekankan pendidikan vokasional yang efektif dan penyiapan ASN berkompetensi teknis; (3) Tujuan yang secara eksplisit menyebut kemampuan menerapkan dan mengembangkan ilmu keamanan siber dan sandi dalam pelaksanaan pekerjaan; dan (4) Strategi yang berfokus pada kurikulum adaptif dan pengembangan kompetensi berbasis kebutuhan pengguna (BSSN dan K/L strategis).
+Ciri khas keilmuan PS RKS paling konkret tercermin dalam **5 (lima) Profil Lulusan (PL)** yang ditetapkan dalam Dokumen Kurikulum PS RKS Tahun 2023 (disetujui Wakil Direktur I dan ditetapkan Direktur pada 29 September 2023). Seluruh profil lulusan secara eksklusif berorientasi pada kompetensi keamanan siber dan sandi untuk mendukung tugas dan fungsi organisasi negara:
+
+| Kode | Profil Lulusan | Keterkaitan dengan Ciri Khas Keilmuan |
+|------|----------------|---------------------------------------|
+| PL01 | Memiliki kemampuan memahami konsep keamanan siber dan sandi serta mampu melakukan operasi keamanan siber dan sandi yang selaras dengan tugas dan fungsi Organisasi | Kompetensi inti: operasi keamanan siber & sandi untuk kepentingan organisasi negara |
+| PL02 | Memiliki kemampuan intelektual sebagai pembelajaran sepanjang hayat dan kepatuhan terhadap nilai dan norma organisasi | Karakter ASN: adaptif, patuh regulasi, etos sandi |
+| PL03 | Memiliki sikap kepemimpinan, bekerja sama, berkomunikasi, beradaptasi, dan berpikir kritis | Soft skills ASN: kepemimpinan dan kerja tim di lingkungan instansi negara |
+| PL04 | Memiliki kemampuan dan keahlian untuk melakukan pengujian dan audit keamanan informasi sesuai regulasi dan standar yang berlaku | Kompetensi teknis: uji dan audit keamanan — selaras SKKNI No. 23 & 24 Tahun 2022 |
+| PL05 | Memiliki kemampuan dan keahlian untuk menganalisis insiden siber, merespons insiden siber, dan menganalisis bukti digital sesuai standar dan prosedur | Kompetensi teknis: respons insiden & forensik digital — selaras SKKNI No. 391 Tahun 2020 |
+
+##### Kesesuaian VMTS dengan KKNI Level 6 — Bukti melalui CPL
+
+Seluruh elemen VMTS PS RKS ditetapkan dengan mempertimbangkan deskriptor KKNI Level 6 (Sarjana Terapan) yang mencakup kemampuan menerapkan bidang keahlian dan memanfaatkan ilmu pengetahuan, teknologi, dan/atau seni pada bidangnya dalam penyelesaian masalah serta mampu beradaptasi terhadap situasi yang dihadapi. Kesesuaian ini terwujud dalam **11 (sebelas) Capaian Pembelajaran Lulusan (CPL)** bilingual (Indonesia–Inggris) yang dirumuskan berbasis KKNI Level 6 dan dikaitkan langsung dengan Profil Lulusan:
+
+| Kode | Rumusan CPL | Keterkaitan KKNI Level 6 |
+|------|-------------|--------------------------|
+| CPL01 | Mampu memahami konsep dasar matematika, statistika, dan teknik kriptografi serta mengaplikasikannya dalam bidang keamanan siber dan sandi | Pengetahuan terapan — landasan ilmiah kekhususan persandian |
+| CPL02 | Mampu memahami konsep pemrograman, TIK, jaringan komputer, keamanan informasi, dan mengaplikasikannya dalam bidang keamanan siber | Pengetahuan terapan — inti keamanan siber berbasis TIK |
+| CPL03 | Mampu memahami konsep intelijen, keamanan siber, dan perangkat elektronik serta mengaplikasikannya dalam operasi keamanan siber dan sandi | Pengetahuan terapan — kekhasan keilmuan operasi siber & sandi |
+| CPL04 | Mampu berpikir logis dan sistematis, mengembangkan diri, adaptif terhadap perkembangan teknologi, dan menginternalisasi nilai organisasi | Sikap — deskriptor KKNI Level 6: belajar sepanjang hayat |
+| CPL05 | Mampu memimpin, menerapkan sikap kerja kooperatif, komunikatif, mandiri, konstruktif, dan berperan aktif dalam tim | Sikap — deskriptor KKNI Level 6: kerja mandiri dan tim |
+| CPL06 | Mampu mengumpulkan dan menyampaikan informasi, hasil pemikiran, hasil penelitian yang bermutu bagi pemangku kepentingan | Keterampilan umum — komunikasi ilmiah |
+| CPL07 | Mampu menguji dan mengelola kerawanan/celah sistem keamanan informasi dan menentukan solusi dengan pendekatan sesuai regulasi | Keterampilan khusus — uji keamanan (SKKNI No. 23/2022) |
+| CPL08 | Mampu menganalisis insiden siber dan mengklasifikasikannya untuk menentukan respons insiden sesuai standar dan prosedur | Keterampilan khusus — respons insiden (SKKNI No. 391/2020) |
+| CPL09 | Mampu mengumpulkan bukti digital dan menganalisis hasil akuisisi bukti digital untuk meyakinkan kebenaran kasus kejahatan/insiden siber | Keterampilan khusus — forensik digital |
+| CPL10 | Mampu mengaudit keamanan informasi dan melaporkan hasil audit sesuai standar dan regulasi yang berlaku | Keterampilan khusus — audit keamanan (SKKNI No. 24/2022) |
+| CPL11 | Mampu merancang program kesadaran keamanan siber dengan memadukan berbagai metode dan mengukur efektivitasnya | Keterampilan khusus — manajemen keamanan siber |
+
+CPL yang ditulis secara bilingual (Indonesia dan Inggris) merupakan bukti nyata dari klaim *"berorientasi global"* dalam Visi PS RKS.
+
+##### Ciri Khas Keilmuan dalam Struktur Kurikulum
+
+Ciri khas keilmuan PS RKS juga tercermin dalam struktur kurikulum 8 semester (total ±152 SKS) yang dikembangkan berbasis **Outcome-Based Education (OBE)** mengacu pada referensi internasional: ACM–Cyber Security Curricula 2020, The Cyber Security Body of Knowledge (CyBOK) V1.1 2021, dan SKKNI bidang keamanan siber. Mata kuliah yang secara eksklusif mencerminkan kekhasan keilmuan PS RKS — tidak terdapat pada program studi keamanan siber lain di luar Poltek SSN — antara lain:
+
+| Mata Kuliah Khas | Semester | SKS | Keterkaitan Ciri Khas |
+|-----------------|----------|-----|----------------------|
+| Pengantar Persandian | I | 4 | Keilmuan persandian — kekhasan mandat BSSN |
+| Etos Sandi I–VIII | I–VIII | 1/semester | Pembentukan karakter ASN berbasis nilai-nilai sandi |
+| Kriptografi Terapan | III | 4 | Persandian terapan — SKKNI Kriptografi No. 4/2023 |
+| Operasi Kamsiber dan Sandi | IV | 5 | Integrasi keamanan siber dan sandi — kompetensi inti BSSN |
+| Teknik Manajemen Kunci | VI | 3 | Kriptografi lanjut — pengelolaan kunci sandi |
+| Validasi Algoritma Kriptografi | VI | 3 | Evaluasi keamanan kriptografi — kekhasan persandian |
+| Evaluasi Produk Keamanan | VI | 3 | Audit keamanan produk — SKKNI No. 24/2022 |
+| Keamanan Perangkat Keras | IV | 3 | Keamanan hardware — dimensi khas siber-sandi |
+| Biometrik dan Kendali Akses | VI | 3 | Autentikasi & kontrol akses berbasis persandian |
 
 ##### Diferensiasi PS RKS dibandingkan Program Studi Sejenis
 
@@ -68,10 +118,11 @@ PS RKS memiliki diferensiasi yang jelas dan substantif dibandingkan program stud
 |--------------------|-------------------|----------------------------------|
 | **Penyelenggara** | Perguruan tinggi kedinasan di bawah BSSN — satu-satunya di Indonesia | Perguruan tinggi umum negeri/swasta |
 | **Mandat lulusan** | Calon ASN bidang keamanan siber & sandi untuk kepentingan nasional | Lulusan untuk sektor swasta, pemerintah umum, atau pasar bebas |
-| **Orientasi keilmuan** | Keamanan siber berbasis kepentingan nasional, ketahanan siber negara, dan persandian | Keamanan siber berorientasi industri/komersial atau akademik umum |
-| **Pembina teknis** | BSSN sebagai leading sector keamanan siber nasional — pembina langsung dan pengguna utama lulusan | Tidak memiliki keterkaitan langsung dengan otoritas keamanan siber nasional |
-| **Kurikulum** | Mengintegrasikan kompetensi keamanan siber, persandian, karakter ASN, dan kepentingan pertahanan nasional | Kurikulum berbasis kebutuhan industri umum |
-| **Regulasi acuan** | Perpres 47/2023 (Stranas Keamanan Siber), Statuta Poltek SSN, kebijakan BSSN | Standar nasional perguruan tinggi umum |
+| **Orientasi keilmuan** | Keamanan siber + persandian + kepentingan keamanan nasional — terintegrasi dalam kurikulum | Keamanan siber berorientasi industri/komersial atau akademik umum |
+| **Pembina teknis** | BSSN sebagai *leading sector* keamanan siber nasional — pembina langsung dan pengguna utama lulusan | Tidak ada keterkaitan langsung dengan otoritas keamanan siber nasional |
+| **Referensi kurikulum** | ACM-Cybersecurity Curricula 2020 + CyBOK V1.1 2021 + 4 SKKNI Keamanan Siber/Kriptografi | Umumnya mengacu ACM umum atau kurikulum institusi |
+| **Mata kuliah khas** | Etos Sandi (I–VIII), Persandian, Kriptografi Terapan, Operasi Kamsiber dan Sandi — tidak ada di PS lain | Tidak memiliki dimensi persandian dan karakter ASN secara terstruktur |
+| **Regulasi acuan** | Perpres 47/2023 (Stranas Keamanan Siber), Statuta Poltek SSN, 4 SKKNI keamanan siber | Standar nasional perguruan tinggi umum |
 
 ---
 
@@ -94,8 +145,9 @@ Kebijakan yang menjadi landasan penetapan VMTS PS RKS yang sesuai dengan kebutuh
 1. Peraturan Presiden Nomor 12 Tahun 2025 tentang Rencana Pembangunan Jangka Menengah Nasional (RPJMN) Tahun 2025–2029 — sebagai arah pembangunan nasional yang menjadi rujukan kebutuhan SDM keamanan siber jangka menengah;
 2. Peraturan Presiden Nomor 47 Tahun 2023 tentang Strategi Nasional Keamanan Siber dan Sandi Negara — memetakan kebutuhan SDM keamanan siber nasional secara eksplisit sebagai acuan relevansi VMTS PS RKS terhadap kebutuhan negara;
 3. Rencana Strategis Poltek SSN Tahun 2025–2029 — memuat Visi dan Misi Poltek SSN serta arah pengembangan seluruh program studi sesuai kebutuhan pengguna lulusan (BSSN dan K/L strategis);
-4. Keputusan Direktur Poltek SSN Nomor 06.2 Tahun 2022 tentang Visi, Misi, Tujuan, dan Strategi Program Studi Rekayasa Keamanan Siber — merupakan hasil proses perumusan yang melibatkan pemangku kepentingan internal dan eksternal;
-5. Keputusan Direktur Poltek SSN Nomor [No SK] Tahun 2025 tentang Standar Mutu Internal Politeknik Siber dan Sandi Negara (Standar VMTS Pasal 331 dan 332) — menetapkan indikator jumlah keterlibatan pemangku kepentingan dalam penyusunan VMTS (target ≥ 3) dan periode evaluasi VMTS (target 5 tahun sekali).
+4. Keputusan Kepala Badan Siber dan Sandi Negara Nomor 390.1 Tahun 2022 tentang Penetapan Tim Pengembangan Kurikulum Program Sarjana Diploma IV Politeknik Siber dan Sandi Negara Tahun 2022 — bukti pelibatan BSSN selaku instansi pembina dan pengguna lulusan dalam proses penyusunan kurikulum yang mendasari VMTS;
+5. Keputusan Direktur Poltek SSN Nomor 06.2 Tahun 2022 tentang Visi, Misi, Tujuan, dan Strategi Program Studi Rekayasa Keamanan Siber — merupakan hasil proses perumusan yang melibatkan pemangku kepentingan internal dan eksternal;
+6. Keputusan Direktur Poltek SSN Nomor [No SK] Tahun 2025 tentang Standar Mutu Internal Politeknik Siber dan Sandi Negara (Standar VMTS Pasal 331 dan 332) — menetapkan indikator jumlah keterlibatan pemangku kepentingan dalam penyusunan VMTS (target ≥ 3) dan periode evaluasi VMTS (target 5 tahun sekali).
    > **[Catatan]** Isikan nomor SK resmi Standar Mutu 2025 setelah dikonfirmasi ke Pus Jamut.
 
 ---
@@ -125,30 +177,55 @@ Keselarasan antara ketiga jenjang tersebut dirangkum dalam matriks berikut:
 | **Tata Kelola** | Reformasi birokrasi berdampak | SDM bermental tangguh & bermoral tinggi | Penjaminan mutu menuju standar internasional |
 | **Orientasi Lulusan** | Aparatur siber & sandi nasional | Lulusan unggul aktif dalam digitalisasi pemerintahan yang aman | ASN berkompetensi keamanan siber & sandi, berdaya saing global |
 
+##### Tracer Study sebagai Bukti Relevansi VMTS terhadap Kebutuhan Pengguna
+
+Relevansi VMTS PS RKS terhadap kebutuhan nyata pengguna lulusan terbukti melalui **Tracer Study Lulusan PS RKS Tahun 2021** (responden: lulusan angkatan pertama tahun 2020). Hasil tracer study menunjukkan tingkat kesesuaian yang sangat tinggi antara kompetensi yang diperoleh selama pendidikan dengan kebutuhan pekerjaan di bidang keamanan siber dan sandi:
+
+| Aspek yang Diukur | Hasil Tracer Study 2021 | Implikasi terhadap VMTS |
+|-------------------|------------------------|-------------------------|
+| Kesesuaian bidang pekerjaan dengan kompetensi lulusan | **61,76% sangat sesuai** + **35,29% sesuai** = **97,06% total sesuai** | Misi PS RKS (menyiapkan ASN berkompetensi keamanan siber) terbukti relevan dengan kebutuhan pengguna |
+| Kepuasan terhadap kompetensi yang dikuasai setelah lulus | **41,18% sangat puas** + **58,82% puas** = **100% puas/sangat puas** | Seluruh lulusan merasa kompetensi yang diterima sesuai kebutuhan — tidak ada yang menyatakan kurang puas |
+| Identifikasi gap kompetensi | 27 kompetensi dengan penguasaan saat lulus lebih rendah dibanding kebutuhan di pekerjaan | Menjadi dasar pengembangan kurikulum 2023 berbasis OBE yang lebih adaptif terhadap perkembangan teknologi |
+
+Berdasarkan hasil tracer study tersebut, alumni juga memberikan saran perbaikan yang langsung diadopsi dalam pengembangan VMTS dan kurikulum, antara lain: peningkatan keikutsertaan dalam kegiatan siber tingkat nasional/internasional (selaras Strategi 5 PS RKS), pengembangan kurikulum mengikuti tren teknologi (selaras Strategi 3), dan penguatan kompetensi untuk sertifikasi (selaras Visi "berorientasi global").
+
 ##### Proses Penetapan VMTS yang Partisipatif
 
-VMTS PS RKS ditetapkan melalui proses kajian yang sistematis dan partisipatif, melibatkan berbagai pemangku kepentingan untuk menjamin relevansi dan akseptabilitas VMTS terhadap kebutuhan pengguna lulusan. Draf VMTS dirumuskan dengan mempertimbangkan: (1) arah kebijakan strategis BSSN sebagai instansi pembina; (2) Renstra Poltek SSN 2025–2029 sebagai dokumen perencanaan jangka menengah institusi; (3) analisis kebutuhan pengguna lulusan dari instansi pemerintah dan sektor keamanan siber nasional; (4) perkembangan teknologi dan ancaman siber global yang termuat dalam Stranas Keamanan Siber (Perpres 47/2023); dan (5) evaluasi implementasi VMTS periode sebelumnya.
+VMTS PS RKS ditetapkan melalui proses kajian yang sistematis dan partisipatif, melibatkan **7 (tujuh) kelompok pemangku kepentingan** — jauh melampaui target standar mutu ≥ 3 pihak — untuk menjamin relevansi dan akseptabilitas VMTS terhadap kebutuhan pengguna lulusan. Proses ini terdokumentasi secara formal dalam Dokumen Kurikulum PS RKS (ditetapkan September 2023):
 
-| Tahapan | Kegiatan | Pemangku Kepentingan yang Dilibatkan | Bukti |
-|---------|----------|--------------------------------------|-------|
-| Analisis kebutuhan | Kajian kebutuhan SDM keamanan siber nasional, benchmark PS sejenis, evaluasi VMTS sebelumnya | Tim PS RKS, Poltek SSN, perwakilan BSSN | [Link dokumen kajian] |
-| Penyusunan draf | Perumusan draf VMTS mengacu Renstra Poltek SSN dan kebijakan BSSN | Kaprodi, dosen tetap PS RKS, pimpinan Poltek SSN | [Link notulen rapat] |
-| Konsultasi stakeholder | Diskusi dan masukan dari pengguna lulusan, alumni, dan pakar keamanan siber | BSSN, [instansi pengguna lulusan], alumni PS RKS | [Link bukti FGD/notulen] |
-| Finalisasi & penetapan | Pengesahan melalui Keputusan Direktur Poltek SSN | Direktur Poltek SSN | Kepdir No. 06.2 Tahun 2022 |
-| Sosialisasi | Penyebarluasan VMTS kepada sivitas akademika dan pemangku kepentingan | Seluruh dosen, tendik, mahasiswa PS RKS | [Link bukti sosialisasi] |
+| No | Pemangku Kepentingan | Peran dalam Penyusunan VMTS/Kurikulum | Bukti Keterlibatan |
+|----|---------------------|----------------------------------------|--------------------|
+| 1 | **Dosen Tetap PS RKS** (6 orang perumus) | Merumuskan draf VMTS, CPL, dan struktur kurikulum berbasis OBE | Dokumen Kurikulum — halaman tim perumus (Sept 2023) |
+| 2 | **Kaprodi PS RKS** (Septia Ulfa Sunaringtyas, S.Tr.MP., M.T.) | Memeriksa dan memvalidasi kesesuaian VMTS dengan kebutuhan prodi | Dokumen Kurikulum — tandatangan pemeriksa |
+| 3 | **Wakil Direktur I Poltek SSN** (Dr. Amiruddin, S.Kom., M.T.I.) | Memberikan persetujuan atas kesesuaian VMTS dengan kebijakan institusi | Dokumen Kurikulum — tandatangan persetujuan |
+| 4 | **Direktur Poltek SSN** (R. Tjahjo Khurniawan, S.T., M.Si.) | Menetapkan VMTS secara resmi melalui Kepdir No. 06.2 Tahun 2022 | Kepdir No. 06.2 Tahun 2022 (31 Maret 2022) |
+| 5 | **Pusat Penjaminan Mutu (Pus Jamut)** (Arizal, M.T.) | Mengendalikan proses penyusunan untuk memastikan kesesuaian standar mutu | Dokumen Kurikulum — tandatangan pengendalian |
+| 6 | **BSSN** (selaku instansi pembina dan pengguna lulusan) | Dilibatkan dalam penyusunan kurikulum melalui Kepka BSSN No. 390.1 Tahun 2022 tentang Tim Pengembangan Kurikulum | Kepka BSSN No. 390.1 Tahun 2022 |
+| 7 | **Alumni PS RKS** (lulusan 2020) | Memberikan umpan balik melalui Tracer Study 2021 — menjadi salah satu dasar revisi VMTS dan kurikulum | Laporan Tracer Study PS RKS 2021 |
 
-VMTS PS RKS ditetapkan secara resmi melalui **Keputusan Direktur Poltek SSN Nomor 06.2 Tahun 2022** tanggal **31 Maret 2022**, ditandatangani oleh Direktur Poltek SSN R. Tjahjo Khurniawan, S.T., M.Si., Marsekal Pertama TNI. Dokumen ini berlaku sejak tanggal penetapan dan menjadi acuan bagi seluruh kebijakan, program kerja, dan pengembangan PS RKS. Evaluasi dan pembaruan VMTS dijadwalkan paling lambat setiap 5 (lima) tahun sekali, dengan kemungkinan percepatan apabila terjadi perubahan signifikan pada kebijakan BSSN atau Renstra Poltek SSN.
+Draf VMTS dirumuskan dengan mempertimbangkan: (1) arah kebijakan strategis BSSN sebagai instansi pembina; (2) Renstra Poltek SSN 2025–2029 sebagai dokumen perencanaan jangka menengah institusi; (3) analisis kebutuhan pengguna lulusan dari instansi pemerintah dan sektor keamanan siber nasional melalui tracer study; (4) perkembangan teknologi dan ancaman siber global yang termuat dalam Stranas Keamanan Siber (Perpres 47/2023); dan (5) evaluasi implementasi VMTS periode sebelumnya (kurikulum lama Teknik Persandian).
+
+| Tahapan | Kegiatan | Pemangku Kepentingan | Bukti |
+|---------|----------|----------------------|-------|
+| Analisis kebutuhan | Tracer study alumni 2021; kajian kebutuhan SDM keamanan siber nasional; benchmark PS sejenis | Alumni PS RKS, Tim PS RKS, BSSN | Laporan Tracer Study 2021 |
+| Penyusunan draf | Perumusan draf VMTS, CPL, profil lulusan berbasis OBE, KKNI, SKKNI | 6 dosen perumus, Kaprodi | Dokumen Kurikulum (Sept 2023) |
+| Persetujuan institusi | Validasi kesesuaian VMTS dengan kebijakan Poltek SSN dan BSSN | Wadir I, Direktur | Dokumen Kurikulum — persetujuan & penetapan |
+| Pengendalian mutu | Verifikasi kesesuaian standar mutu SPMI | Pus Jamut | Dokumen Kurikulum — pengendalian |
+| Penetapan resmi | Pengesahan VMTS melalui Keputusan Direktur | Direktur Poltek SSN | Kepdir No. 06.2 Tahun 2022 |
+| Sosialisasi | Penyebarluasan VMTS kepada sivitas akademika | Seluruh dosen, tendik, mahasiswa PS RKS | [Link bukti sosialisasi] |
+
+VMTS PS RKS ditetapkan secara resmi melalui **Keputusan Direktur Poltek SSN Nomor 06.2 Tahun 2022** tanggal **31 Maret 2022**, ditandatangani oleh Direktur Poltek SSN R. Tjahjo Khurniawan, S.T., M.Si., Marsekal Pertama TNI. Evaluasi dan pembaruan VMTS dijadwalkan paling lambat setiap 5 (lima) tahun sekali (paling lambat 2027), dengan kemungkinan percepatan apabila terjadi perubahan signifikan pada kebijakan BSSN atau Renstra Poltek SSN.
 
 ---
 
 #### Standar Mutu dan Indikator Kinerja — Bagian B
 
-> **[Catatan]** Indikator bersumber dari Standar Mutu Internal Poltek SSN Tahun 2025 (Standar VMTS Pasal 331 dan 332). PJ: Para Wakil Direktur Poltek SSN. Indikator keterlibatan stakeholder: dokumentasikan setiap pihak yang dilibatkan dalam penyusunan VMTS secara formal (daftar hadir/notulen).
+> **[Catatan]** Indikator bersumber dari Standar Mutu Internal Poltek SSN Tahun 2025 (Standar VMTS Pasal 331 dan 332). PJ: Para Wakil Direktur Poltek SSN. Capaian indikator keterlibatan stakeholder: 7 pihak terdokumentasi (melampaui target ≥ 3). Kepka BSSN No. 390.1 Tahun 2022 dan Laporan Tracer Study 2021 merupakan bukti dukung utama.
 
-| No | Kriteria LAM Infokom | Pernyataan Standar Mutu | Indikator | Target | PJ | Rujukan Standar |
-|----|----------------------|-------------------------|-----------|--------|----|-----------------|
-| 1 | VMTS yang sesuai kebutuhan masyarakat dan DUDIKA | Direktur memastikan perumusan visi, misi, tujuan, dan strategi sesuai dengan kebutuhan DUDIKA | Jumlah keterlibatan pemangku kepentingan internal maupun eksternal dalam penyusunan VMTS | ≥ 3 | Para Wadir | Standar VMTS (Pasal 331, 332) |
-| 2 | VMTS yang sesuai kebutuhan masyarakat dan DUDIKA | Direktur memastikan perumusan visi, misi, tujuan, dan strategi sesuai dengan kebutuhan DUDIKA | Periode evaluasi dan penetapan VMTS | 5 tahun sekali | Para Wadir | Standar VMTS (Pasal 331, 332) |
+| No | Kriteria LAM Infokom | Pernyataan Standar Mutu | Indikator | Target | Capaian | PJ | Rujukan Standar |
+|----|----------------------|-------------------------|-----------|--------|---------|----|-----------------|
+| 1 | VMTS yang sesuai kebutuhan masyarakat dan DUDIKA | Direktur memastikan perumusan visi, misi, tujuan, dan strategi sesuai dengan kebutuhan DUDIKA | Jumlah keterlibatan pemangku kepentingan internal maupun eksternal dalam penyusunan VMTS | ≥ 3 | **7 pihak** *(dosen, kaprodi, wadir, direktur, pus jamut, BSSN, alumni)* | Para Wadir | Standar VMTS (Pasal 331, 332) |
+| 2 | VMTS yang sesuai kebutuhan masyarakat dan DUDIKA | Direktur memastikan perumusan visi, misi, tujuan, dan strategi sesuai dengan kebutuhan DUDIKA | Periode evaluasi dan penetapan VMTS | 5 tahun sekali | **Ditetapkan 2022; evaluasi berikutnya paling lambat 2027** | Para Wadir | Standar VMTS (Pasal 331, 332) |
 
 ---
 
@@ -165,4 +242,4 @@ VMTS PS RKS ditetapkan secara resmi melalui **Keputusan Direktur Poltek SSN Nomo
 ---
 
 *Dokumen: LED-C6.1-Penetapan-Diferensiasi-Misi.md — 21 April 2026*
-*Sumber: Kepdir No. 06.2 Tahun 2022 (VMTS PS RKS) | Renstra Poltek SSN 2025–2029 | STANDAR MUTU LED RKS.xlsx (C6 baris Standar VMTS 331, 332, 334) | Perpres No. 47 Tahun 2023 | Perbadan No. 1 Tahun 2023*
+*Sumber: Kepdir No. 06.2 Tahun 2022 (VMTS PS RKS) | Dokumen Kurikulum PS RKS 2023 (Kurikulum RKS 21 Maret 2025 0900.docx) | Laporan Tracer Study PS RKS 2021 | Kepka BSSN No. 390.1 Tahun 2022 | Renstra Poltek SSN 2025–2029 | STANDAR MUTU LED RKS.xlsx (C6 Standar VMTS 331, 332, 334) | Perpres No. 47 Tahun 2023 | Perbadan No. 1 Tahun 2023 | SKKNI No. 391/2020, 23/2022, 24/2022, 4/2023*
